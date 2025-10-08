@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_EventRegistry>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_entityName><![CDATA[Mani_Event_Registry]]></au_entityName>
+        <au_eventparam><![CDATA[]]></au_eventparam>
+        <au_paramMapXml><![CDATA[]]></au_paramMapXml>
+        <au_description><![CDATA[Mani_Event_Registry]]></au_description>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_eventId><![CDATA[FileEvent:1393161638540996608]]></au_eventId>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_modifiedDate><![CDATA[2025-07-11T15:05:23]]></au_modifiedDate>
+        <au_subscriberId><![CDATA[Transaction:1393161984730460160]]></au_subscriberId>
+        <au_creationDate><![CDATA[2025-07-11T15:05:23]]></au_creationDate>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_version><![CDATA[1]]></au_version>
+        <au_id><![CDATA[1393163755494305792]]></au_id>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+    </AU_EventRegistry>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_eventId" type="12"/>
+        <column name="au_subscriberId" type="12"/>
+        <column name="au_eventparam" type="12"/>
+        <column name="au_paramMapXml" type="-1"/>
+    </columnInfo>
+</data>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_DBCONNECTIONINFO>
+        <au_modifiedDate><![CDATA[2025-06-27T10:32:30]]></au_modifiedDate>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_dbUser><![CDATA[ac4training_support_user]]></au_dbUser>
+        <au_url><![CDATA[jdbc:mysql://mysql-adeptia-shared-eus2-01.mysql.database.azure.com:3306/adeptiashared_internaltraining_log?useSSL=false]]></au_url>
+        <au_minPoolSize><![CDATA[3]]></au_minPoolSize>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_enablePooling><![CDATA[0]]></au_enablePooling>
+        <au_userOwner><![CDATA[IndigoUser:1390336793352597504]]></au_userOwner>
+        <au_description><![CDATA[DB_INFO_FOR_AIG]]></au_description>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_appType><![CDATA[MYSQL_DB_DRIVER]]></au_appType>
+        <au_modifiedBy><![CDATA[IndigoUser:1390336793352597504]]></au_modifiedBy>
+        <au_transactionIsolation><![CDATA[ReadCommitted]]></au_transactionIsolation>
+        <au_maxStatements><![CDATA[0]]></au_maxStatements>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_maxPoolSize><![CDATA[10]]></au_maxPoolSize>
+        <au_initialPoolSize><![CDATA[3]]></au_initialPoolSize>
+        <au_version><![CDATA[1]]></au_version>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_entityName><![CDATA[DB_INFO_FOR_AIG]]></au_entityName>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_kerberosConfiguration><![CDATA[]]></au_kerberosConfiguration>
+        <au_authType><![CDATA[Basic]]></au_authType>
+        <au_id><![CDATA[1388104697332695040]]></au_id>
+        <au_dbSchemaName><![CDATA[]]></au_dbSchemaName>
+        <au_driver><![CDATA[1236992508281462784]]></au_driver>
+        <au_connectionPool><![CDATA[Hikari]]></au_connectionPool>
+        <au_creationDate><![CDATA[2025-06-27T10:32:30]]></au_creationDate>
+        <au_checkoutTimeout><![CDATA[1000]]></au_checkoutTimeout>
+        <au_maxIdleTime><![CDATA[10]]></au_maxIdleTime>
+        <au_dbPassword><![CDATA[rmPsrgZP1RJ1nbov2gwCoQ==]]></au_dbPassword>
+    </AU_DBCONNECTIONINFO>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_appType" type="12"/>
+        <column name="au_driver" type="12"/>
+        <column name="au_url" type="12"/>
+        <column name="au_dbUser" type="12"/>
+        <column name="au_dbPassword" type="12"/>
+        <column name="au_enablePooling" type="3"/>
+        <column name="au_maxPoolSize" type="12"/>
+        <column name="au_minPoolSize" type="12"/>
+        <column name="au_initialPoolSize" type="12"/>
+        <column name="au_maxIdleTime" type="12"/>
+        <column name="au_checkoutTimeout" type="12"/>
+        <column name="au_dbSchemaName" type="12"/>
+        <column name="au_connectionPool" type="12"/>
+        <column name="au_maxStatements" type="12"/>
+        <column name="au_transactionIsolation" type="12"/>
+        <column name="au_authType" type="12"/>
+        <column name="au_kerberosConfiguration" type="12"/>
+    </columnInfo>
+</data>

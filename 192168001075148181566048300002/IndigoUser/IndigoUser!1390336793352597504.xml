@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_USERS>
+        <au_previousVersion><![CDATA[null]]></au_previousVersion>
+        <au_modifiedDate><![CDATA[2025-07-03T19:52:03]]></au_modifiedDate>
+        <au_lastPasswordChanged><![CDATA[null]]></au_lastPasswordChanged>
+        <au_viewLevel><![CDATA[null]]></au_viewLevel>
+        <au_firstName><![CDATA[Saurabh]]></au_firstName>
+        <AU_READ_ONLY_ACCESS><![CDATA[null]]></AU_READ_ONLY_ACCESS>
+        <au_modifiedBy><![CDATA[IndigoUser:1390336793352597504]]></au_modifiedBy>
+        <au_version><![CDATA[1]]></au_version>
+        <au_manager><![CDATA[null]]></au_manager>
+        <AU_UNIQUEIDENTIFIER><![CDATA[null]]></AU_UNIQUEIDENTIFIER>
+        <au_orgUrl><![CDATA[null]]></au_orgUrl>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_address1><![CDATA[null]]></au_address1>
+        <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <au_sendEmail><![CDATA[0]]></au_sendEmail>
+        <au_creationDate><![CDATA[2025-07-03T19:52:03]]></au_creationDate>
+        <au_userType><![CDATA[groupadmin]]></au_userType>
+        <au_entityName><![CDATA[saurabhsharma]]></au_entityName>
+        <au_mobile><![CDATA[null]]></au_mobile>
+        <AU_IMAGEIDENTIFIER><![CDATA[null]]></AU_IMAGEIDENTIFIER>
+        <au_primaryGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_primaryGroup>
+        <au_title><![CDATA[null]]></au_title>
+        <au_webDavFolder><![CDATA[null]]></au_webDavFolder>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_country><![CDATA[null]]></au_country>
+        <au_address2><![CDATA[null]]></au_address2>
+        <au_id><![CDATA[1390336793352597504]]></au_id>
+        <au_phone><![CDATA[null]]></au_phone>
+        <au_colleague><![CDATA[null]]></au_colleague>
+        <PARTNER_OWNER><![CDATA[1]]></PARTNER_OWNER>
+        <au_lastName><![CDATA[Sharma]]></au_lastName>
+        <au_comment><![CDATA[null]]></au_comment>
+        <au_activateFlag><![CDATA[Activated]]></au_activateFlag>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_calendar><![CDATA[null]]></au_calendar>
+        <au_email><![CDATA[saurabh.sharma@adeptia.com]]></au_email>
+        <au_description><![CDATA[saurabh.sharma@adeptia.com]]></au_description>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_keystorePassword><![CDATA[null]]></au_keystorePassword>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_lastLogin><![CDATA[1758101491692]]></au_lastLogin>
+        <au_city><![CDATA[null]]></au_city>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <AU_LASTMESSAGEVIEWED><![CDATA[null]]></AU_LASTMESSAGEVIEWED>
+        <au_userPermission><![CDATA[7]]></au_userPermission>
+        <au_password><![CDATA[r4JyPYOHNi8tZ78RoiOZXg==]]></au_password>
+        <au_zip><![CDATA[null]]></au_zip>
+        <au_privateKeyPassword><![CDATA[null]]></au_privateKeyPassword>
+        <au_orgName><![CDATA[null]]></au_orgName>
+        <au_state><![CDATA[null]]></au_state>
+        <au_fax><![CDATA[null]]></au_fax>
+        <LOCKED_TIME><![CDATA[null]]></LOCKED_TIME>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <AU_USERPREFRENCES><![CDATA[null]]></AU_USERPREFRENCES>
+        <au_certificateStatus><![CDATA[false]]></au_certificateStatus>
+    </AU_USERS>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_userType" type="12"/>
+        <column name="au_primaryGroup" type="12"/>
+        <column name="au_firstName" type="12"/>
+        <column name="au_lastName" type="12"/>
+        <column name="au_title" type="12"/>
+        <column name="au_comment" type="12"/>
+        <column name="au_orgName" type="12"/>
+        <column name="au_address1" type="12"/>
+        <column name="au_address2" type="12"/>
+        <column name="au_city" type="12"/>
+        <column name="au_state" type="12"/>
+        <column name="au_country" type="12"/>
+        <column name="au_orgUrl" type="12"/>
+        <column name="au_email" type="12"/>
+        <column name="au_mobile" type="12"/>
+        <column name="au_phone" type="12"/>
+        <column name="au_fax" type="12"/>
+        <column name="au_password" type="12"/>
+        <column name="au_zip" type="12"/>
+        <column name="au_userPermission" type="12"/>
+        <column name="au_activateFlag" type="12"/>
+        <column name="au_keystorePassword" type="12"/>
+        <column name="au_privateKeyPassword" type="12"/>
+        <column name="au_certificateStatus" type="12"/>
+        <column name="au_colleague" type="12"/>
+        <column name="au_manager" type="12"/>
+        <column name="au_calendar" type="12"/>
+        <column name="au_viewLevel" type="12"/>
+        <column name="au_lastPasswordChanged" type="93"/>
+        <column name="au_webDavFolder" type="12"/>
+        <column name="au_lastLogin" type="12"/>
+        <column name="au_sendEmail" type="3"/>
+        <column name="AU_UNIQUEIDENTIFIER" type="12"/>
+        <column name="AU_IMAGEIDENTIFIER" type="4"/>
+        <column name="AU_LASTMESSAGEVIEWED" type="93"/>
+        <column name="LOCKED_TIME" type="93"/>
+        <column name="AU_USERPREFRENCES" type="-5"/>
+        <column name="PARTNER_OWNER" type="-5"/>
+        <column name="AU_READ_ONLY_ACCESS" type="3"/>
+    </columnInfo>
+</data>

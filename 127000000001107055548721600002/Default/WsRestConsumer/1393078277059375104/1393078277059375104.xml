@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_WSRESTCONSUMER>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_signatureMethod><![CDATA[null]]></au_signatureMethod>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_connectTimeout><![CDATA[0]]></au_connectTimeout>
+        <AU_PARTNAME><![CDATA[]]></AU_PARTNAME>
+        <AU_RESTURL><![CDATA[http://httpbin.org/post]]></AU_RESTURL>
+        <au_selectedMethod><![CDATA[POST]]></au_selectedMethod>
+        <au_useHttpClient><![CDATA[off]]></au_useHttpClient>
+        <au_validateXML><![CDATA[0]]></au_validateXML>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <AU_DISABLESSLVERIFICATION><![CDATA[off]]></AU_DISABLESSLVERIFICATION>
+        <au_oauthAccountID><![CDATA[null]]></au_oauthAccountID>
+        <au_consumerType><![CDATA[rest]]></au_consumerType>
+        <au_securityPolicyID><![CDATA[]]></au_securityPolicyID>
+        <AU_FILENAME><![CDATA[]]></AU_FILENAME>
+        <au_description><![CDATA[AIG_Rest_Consumer]]></au_description>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_readTimeout><![CDATA[0]]></au_readTimeout>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_enableMultipart><![CDATA[off]]></au_enableMultipart>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_version><![CDATA[1]]></au_version>
+        <au_creationDate><![CDATA[2025-07-11T09:25:43]]></au_creationDate>
+        <au_id><![CDATA[1393078277059375104]]></au_id>
+        <au_postQueryString><![CDATA[off]]></au_postQueryString>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_entityName><![CDATA[AIG_Rest_Consumer]]></au_entityName>
+        <au_presentationParameterXML><![CDATA[<variables>
+<methodtype methodname="POST">
+<variable>
+<name>restRequest</name>
+<value>REQUEST</value>
+<style>application/json</style>
+<statuscode></statuscode>
+<xmlschemaid></xmlschemaid>
+</variable>
+<variable>
+<name>restResponse</name>
+<value>RESPONSE</value>
+<style>application/json</style>
+<statuscode></statuscode>
+<xmlschemaid></xmlschemaid>
+</variable>
+<variable>
+<name>restFault</name>
+<value>FAULT</value>
+<style>application/json</style>
+<statuscode></statuscode>
+<xmlschemaid></xmlschemaid>
+</variable>
+</methodtype>
+</variables>
+]]></au_presentationParameterXML>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_modifiedDate><![CDATA[2025-07-14T16:24:59]]></au_modifiedDate>
+        <au_resourceParameterXML><![CDATA[<variables>
+</variables>
+]]></au_resourceParameterXML>
+    </AU_WSRESTCONSUMER>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="AU_RESTURL" type="12"/>
+        <column name="AU_PARTNAME" type="12"/>
+        <column name="AU_FILENAME" type="12"/>
+        <column name="au_signatureMethod" type="12"/>
+        <column name="au_consumerType" type="12"/>
+        <column name="au_enableMultipart" type="12"/>
+        <column name="au_postQueryString" type="12"/>
+        <column name="au_securityPolicyID" type="12"/>
+        <column name="au_oauthAccountID" type="12"/>
+        <column name="au_selectedMethod" type="12"/>
+        <column name="au_validateXML" type="3"/>
+        <column name="au_presentationParameterXML" type="-1"/>
+        <column name="au_resourceParameterXML" type="-1"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="au_readTimeout" type="4"/>
+        <column name="au_connectTimeout" type="4"/>
+        <column name="AU_DISABLESSLVERIFICATION" type="12"/>
+        <column name="au_useHttpClient" type="12"/>
+    </columnInfo>
+</data>

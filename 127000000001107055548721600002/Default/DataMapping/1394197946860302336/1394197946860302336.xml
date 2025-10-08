@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAPPINGTRANSFORMATION>
+        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
+        <au_splitFile><![CDATA[0]]></au_splitFile>
+        <au_entityName><![CDATA[Rest_Response]]></au_entityName>
+        <au_pdfFileName><![CDATA[Adp_Map_Rules8227177132025791657.pdf]]></au_pdfFileName>
+        <AU_MULTI_VALUED_MAP><![CDATA[<MultiValuedMap/>]]></AU_MULTI_VALUED_MAP>
+        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_modifiedDate><![CDATA[2025-08-22T11:36:10]]></au_modifiedDate>
+        <au_enableAIMap><![CDATA[0]]></au_enableAIMap>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_concurrentProcessors><![CDATA[1]]></au_concurrentProcessors>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_optimizedLoading><![CDATA[1]]></au_optimizedLoading>
+        <au_sourceSchema><![CDATA[JSONSchema:1393079646260555776]]></au_sourceSchema>
+        <au_creationDate><![CDATA[2025-07-14T11:34:53]]></au_creationDate>
+        <au_parallelProcessing><![CDATA[0]]></au_parallelProcessing>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_id><![CDATA[1394197946860302336]]></au_id>
+        <au_description><![CDATA[Rest_Response]]></au_description>
+        <au_storedProcedure><![CDATA[]]></au_storedProcedure>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
+        <au_xslFile><![CDATA[<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1" xmlns:saxonJavaMappingTransformation="java:com.adeptia.indigo.services.mapping.MappingTransformation" xmlns:saxonJavaMapperQueryExecutor="java:com.adeptia.indigo.services.mapping.support.dbquery.MapperQueryExecutor" xmlns:saxonJavaAggregateFunctionHandler="java:com.adeptia.indigo.services.mapping.AggregateFunctionHandler"  xmlns:str="http://exslt.org/strings" exclude-result-prefixes="saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon">
+<xsl:output method="xml" version="1.0" encoding="UTF-8" cdata-section-elements="" indent="yes" /><xsl:param name="_userName"/><xsl:param name="_password"/><xsl:param name="_class"/><xsl:param name="_identifier"/><xsl:param name="_subject"/><xsl:param name="_repositoryPath"/><xsl:param name="_Input1"/> <xsl:variable name="varConn" select="saxonJavaMapperQueryExecutor:getInstance($_identifier,'false')"/> <xsl:variable name="apos">'</xsl:variable> <xsl:variable name="quot">"</xsl:variable><xsl:template match="/"><Root><xsl:apply-templates select="Root/headers" mode="_Root_headers_order1">
+</xsl:apply-templates></Root></xsl:template><xsl:template match="/Root/headers" mode="_Root_headers_order1">
+<headers><Accept><xsl:value-of select="Accept"/></Accept><Accept-Encoding><xsl:value-of select="Accept-Encoding"/></Accept-Encoding><Authorization><xsl:value-of select="Authorization"/></Authorization><Content-Length><xsl:value-of select="Content-Length"/></Content-Length><Content-Type><xsl:value-of select="Content-Type"/></Content-Type><Host><xsl:value-of select="Host"/></Host><Postman-Token><xsl:value-of select="Postman-Token"/></Postman-Token><User-Agent><xsl:value-of select="User-Agent"/></User-Agent><X-Amzn-Trace-Id><xsl:value-of select="X-Amzn-Trace-Id"/></X-Amzn-Trace-Id></headers></xsl:template></xsl:stylesheet>]]></au_xslFile>
+        <au_mapXmlFile><![CDATA[<?xml version="1.0" encoding="UTF-8"?><maps version="4.4">
+<mappingInformation>
+    <mappingVersion>6.1</mappingVersion>
+    <mappingName>Rest_Response</mappingName>
+    <mappingProject>Default</mappingProject>
+    <mappingDescription>Rest_Response</mappingDescription>
+    <sourceSchemaID>JSONSchema:1393079646260555776</sourceSchemaID>
+    <targetSchemaID>JSONSchema:1394261691246571520</targetSchemaID>
+    <mappingOwnerGroup>administrators</mappingOwnerGroup>
+    <mappingOwner>Admin User</mappingOwner>
+    <mappingLastModifiedBy>Admin User</mappingLastModifiedBy>
+    <mappingCreationDate>Mon Jul 14 11:34:53 IST 2025</mappingCreationDate>
+    <mappingModifiedDate>Fri Aug 22 11:36:10 IST 2025</mappingModifiedDate>
+    <reusable>true</reusable>
+</mappingInformation>
+<sourceRoots>
+    <sourceRoot>
+        <name>Root</name>
+        <schemaName>AJG_Response_Lyt</schemaName>
+        <schemaID>JSONSchema:1393079646260555776</schemaID>
+    </sourceRoot>
+</sourceRoots>
+<targetRoots>
+    <targetRoot>
+        <name>Root</name>
+        <schemaName>Header_JSON</schemaName>
+        <schemaID>JSONSchema:1394261691246571520</schemaID>
+        <stream>output_1</stream>
+    </targetRoot>
+</targetRoots>
+<nameSpace/>
+<xslProperty/>
+<GlobalPreCustomXSL/>
+<GlobalPostCustomXSL/>
+<xslTemplates/>
+<map>
+<order>1</order>
+ <targetName>Header_JSON</targetName>
+<dest>/Root/headers</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_AJG_Response_Lyt/Root/headers</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="headers">
+<Position height="25" identify="&lt;T&gt;" label="/Root/headers" mapString="$Input_AJG_Response_Lyt/Root/headers" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_AJG_Response_Lyt/Root/headers" mapString="&lt;S&gt;$Input_AJG_Response_Lyt/Root/headers" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Header_JSON</targetName>
+<dest>/Root/headers/Accept</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_AJG_Response_Lyt/Root/headers/Accept</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Accept">
+<Position height="25" identify="&lt;S&gt;" label="$Input_AJG_Response_Lyt/Root/headers/Accept" mapString="&lt;S&gt;$Input_AJG_Response_Lyt/Root/headers/Accept" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/headers/Accept" mapString="$Input_AJG_Response_Lyt/Root/headers/Accept" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Header_JSON</targetName>
+<dest>/Root/headers/Accept-Encoding</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_AJG_Response_Lyt/Root/headers/Accept-Encoding</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Accept-Encoding">
+<Position height="25" identify="&lt;T&gt;" label="/Root/headers/Accept-Encoding" mapString="$Input_AJG_Response_Lyt/Root/headers/Accept-Encoding" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_AJG_Response_Lyt/Root/headers/Accept-Encoding" mapString="&lt;S&gt;$Input_AJG_Response_Lyt/Root/headers/Accept-Encoding" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Header_JSON</targetName>
+<dest>/Root/headers/Content-Length</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_AJG_Response_Lyt/Root/headers/Content-Length</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Content-Length">
+<Position height="25" identify="&lt;T&gt;" label="/Root/headers/Content-Length" mapString="$Input_AJG_Response_Lyt/Root/headers/Content-Length" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_AJG_Response_Lyt/Root/headers/Content-Length" mapString="&lt;S&gt;$Input_AJG_Response_Lyt/Root/headers/Content-Length" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Header_JSON</targetName>
+<dest>/Root/headers/Authorization</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_AJG_Response_Lyt/Root/headers/Authorization</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Authorization">
+<Position height="25" identify="&lt;T&gt;" label="/Root/headers/Authorization" mapString="$Input_AJG_Response_Lyt/Root/headers/Authorization" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_AJG_Response_Lyt/Root/headers/Authorization" mapString="&lt;S&gt;$Input_AJG_Response_Lyt/Root/headers/Authorization" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Header_JSON</targetName>
+<dest>/Root/headers/Content-Type</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_AJG_Response_Lyt/Root/headers/Content-Type</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Content-Type">
+<Position height="25" identify="&lt;S&gt;" label="$Input_AJG_Response_Lyt/Root/headers/Content-Type" mapString="&lt;S&gt;$Input_AJG_Response_Lyt/Root/headers/Content-Type" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/headers/Content-Type" mapString="$Input_AJG_Response_Lyt/Root/headers/Content-Type" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Header_JSON</targetName>
+<dest>/Root/headers/Host</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_AJG_Response_Lyt/Root/headers/Host</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Host">
+<Position height="25" identify="&lt;S&gt;" label="$Input_AJG_Response_Lyt/Root/headers/Host" mapString="&lt;S&gt;$Input_AJG_Response_Lyt/Root/headers/Host" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/headers/Host" mapString="$Input_AJG_Response_Lyt/Root/headers/Host" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Header_JSON</targetName>
+<dest>/Root/headers/Postman-Token</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_AJG_Response_Lyt/Root/headers/Postman-Token</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Postman-Token">
+<Position height="25" identify="&lt;S&gt;" label="$Input_AJG_Response_Lyt/Root/headers/Postman-Token" mapString="&lt;S&gt;$Input_AJG_Response_Lyt/Root/headers/Postman-Token" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/headers/Postman-Token" mapString="$Input_AJG_Response_Lyt/Root/headers/Postman-Token" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Header_JSON</targetName>
+<dest>/Root/headers/User-Agent</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_AJG_Response_Lyt/Root/headers/User-Agent</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="User-Agent">
+<Position height="25" identify="&lt;S&gt;" label="$Input_AJG_Response_Lyt/Root/headers/User-Agent" mapString="&lt;S&gt;$Input_AJG_Response_Lyt/Root/headers/User-Agent" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/headers/User-Agent" mapString="$Input_AJG_Response_Lyt/Root/headers/User-Agent" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Header_JSON</targetName>
+<dest>/Root/headers/X-Amzn-Trace-Id</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_AJG_Response_Lyt/Root/headers/X-Amzn-Trace-Id</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="X-Amzn-Trace-Id">
+<Position height="25" identify="&lt;S&gt;" label="$Input_AJG_Response_Lyt/Root/headers/X-Amzn-Trace-Id" mapString="&lt;S&gt;$Input_AJG_Response_Lyt/Root/headers/X-Amzn-Trace-Id" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/headers/X-Amzn-Trace-Id" mapString="$Input_AJG_Response_Lyt/Root/headers/X-Amzn-Trace-Id" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<variables>
+</variables>
+
+<globalParameters>
+<keys>
+</keys>
+<contextVariables>
+</contextVariables>
+</globalParameters>
+
+<connections/>
+<functions>
+</functions>
+<disableOutputNodes>
+</disableOutputNodes>
+<filters/>
+    <valuemapNodes/>
+<accessLevel>
+<valueMap>global</valueMap>
+        <globalTemplate>global</globalTemplate>
+        <customAutoMap>global</customAutoMap>
+</accessLevel>
+<DataViewerRecordCount>50</DataViewerRecordCount>
+<isQuickSplittingEnabled>false</isQuickSplittingEnabled>
+<sourceExtensions/>
+<targetExtensions/>
+<disableOutputNodes/>
+<characterSetEncoding>UTF-8</characterSetEncoding>
+<tipOfTheDay>true</tipOfTheDay>
+<contextSchemaLoadedAtSource>false</contextSchemaLoadedAtSource>
+<contextSchemaLoadedAtTarget>false</contextSchemaLoadedAtTarget>
+<contextSchemaDefinition>Test12</contextSchemaDefinition>
+<filterUnmappedElement>false</filterUnmappedElement>
+<indentOutputXML>true</indentOutputXML>
+    <streamingMode>false</streamingMode>
+    <filterEmptyElements>false</filterEmptyElements>
+    <dbQueryCaching>false</dbQueryCaching>
+<cacheIncludedSchemas>false</cacheIncludedSchemas>
+<TreeExpandLevelCount>3</TreeExpandLevelCount>
+<TreeExpandLevelCountForWebService>5</TreeExpandLevelCountForWebService>
+<TreeExpandLevelForEasySchemaExtensions>10</TreeExpandLevelForEasySchemaExtensions>
+    <SelfRecursionLevel>0</SelfRecursionLevel>
+    <EnableTypesBuffering>true</EnableTypesBuffering>
+    <CdataSectionElements/>
+<excludeResultPrefixes> saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str</excludeResultPrefixes>
+<webservice>
+    <consumers/>
+</webservice>
+
+<CustomAutoMapInUse/>
+<processElementFormDefault>true</processElementFormDefault>
+<xslVersion2.0>false</xslVersion2.0>
+<xslVersion3.0>false</xslVersion3.0>
+<sourceXpath/>
+<targetXpath/>
+</maps>
+]]></au_mapXmlFile>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":"","filters":"","variables":{"variable":[]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"isAutoSaveEnable":true},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":1752473554147,"sourceXpath":"","targetXpath":"","connectorInfo":{},"cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":"500","parallelProcessing":false,"maximumConcurrentProcessor":"1","CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"metaData":"","processElementFormDefault":true,"mappingInformation":{"mappingVersion":"6.1","mappingName":"Rest_Response","mappingProject":"Default","mappingDescription":"Rest_Response","sourceSchemaID":"JSONSchema:1393079646260555776","targetSchemaID":"JSONSchema:1394261691246571520","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":true},"namespace":"","namespaceList":[],"foreach":"","targetRoots":{"targetRoot":[{"name":"Root","schemaName":"Header_JSON","schemaID":"JSONSchema:1394261691246571520","stream":"output_1"}]},"sourceRoots":{"sourceRoot":[{"name":"Root","schemaName":"AJG_Response_Lyt","schemaID":"JSONSchema:1393079646260555776"}]},"contextSchemaDefinition":"Test12","maps":[{"order":1,"targetName":"Header_JSON","targetfield":"headers","targetfieldpath":"/Root/headers","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1752488313841","elementItem":{"elementType":"SourceElement","name":"headers","expression":"$Input_AJG_Response_Lyt/Root/headers","paramsCount":0,"syntax":"$Input_AJG_Response_Lyt/Root/headers"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1752488313842_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1752488313842"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1752488313842","elementItem":{"elementType":"TargetElement","name":"headers","expression":"$Input_AJG_Response_Lyt/Root/headers","paramsCount":1,"syntax":"Header_JSON/Root/headers"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1752488313841"]}],"expression":"$Input_AJG_Response_Lyt/Root/headers","targetrecord":"Root","mapping":[{"sourceName":"AJG_Response_Lyt","operatortype":"field","sourcefield":"headers","sourcefielddisplayname":"headers","sourcefieldpath":"/Root/headers","sourcerecord":"Root","id":"Mapping-1"}],"markComplete":false,"mapId":"Header_JSON/Root/headers"},{"order":1,"targetName":"Header_JSON","targetfield":"Accept","targetfieldpath":"/Root/headers/Accept","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1752488323495","elementItem":{"elementType":"SourceElement","name":"Accept","expression":"$Input_AJG_Response_Lyt/Root/headers/Accept","paramsCount":0,"syntax":"$Input_AJG_Response_Lyt/Root/headers/Accept"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1752488323496_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1752488323496"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1752488323496","elementItem":{"elementType":"TargetElement","name":"Accept","expression":"$Input_AJG_Response_Lyt/Root/headers/Accept","paramsCount":1,"syntax":"Header_JSON/Root/headers/Accept"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1752488323495"]}],"expression":"$Input_AJG_Response_Lyt/Root/headers/Accept","targetrecord":"headers","mapping":[{"sourceName":"AJG_Response_Lyt","operatortype":"field","sourcefield":"Accept","sourcefielddisplayname":"Accept","sourcefieldpath":"/Root/headers/Accept","sourcerecord":"headers","id":"Mapping-2"}],"markComplete":false,"mapId":"Header_JSON/Root/headers/Accept"},{"order":1,"targetName":"Header_JSON","targetfield":"Accept-Encoding","targetfieldpath":"/Root/headers/Accept-Encoding","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1752488325755","elementItem":{"elementType":"SourceElement","name":"Accept-Encoding","expression":"$Input_AJG_Response_Lyt/Root/headers/Accept-Encoding","paramsCount":0,"syntax":"$Input_AJG_Response_Lyt/Root/headers/Accept-Encoding"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1752488325756_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1752488325756"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1752488325756","elementItem":{"elementType":"TargetElement","name":"Accept-Encoding","expression":"$Input_AJG_Response_Lyt/Root/headers/Accept-Encoding","paramsCount":1,"syntax":"Header_JSON/Root/headers/Accept-Encoding"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1752488325755"]}],"expression":"$Input_AJG_Response_Lyt/Root/headers/Accept-Encoding","targetrecord":"headers","mapping":[{"sourceName":"AJG_Response_Lyt","operatortype":"field","sourcefield":"Accept-Encoding","sourcefielddisplayname":"Accept-Encoding","sourcefieldpath":"/Root/headers/Accept-Encoding","sourcerecord":"headers","id":"Mapping-3"}],"markComplete":false,"mapId":"Header_JSON/Root/headers/Accept-Encoding"},{"order":1,"targetName":"Header_JSON","targetfield":"Content-Length","targetfieldpath":"/Root/headers/Content-Length","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1752488328465","elementItem":{"elementType":"SourceElement","name":"Content-Length","expression":"$Input_AJG_Response_Lyt/Root/headers/Content-Length","paramsCount":0,"syntax":"$Input_AJG_Response_Lyt/Root/headers/Content-Length"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1752488328466_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1752488328466"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1752488328466","elementItem":{"elementType":"TargetElement","name":"Content-Length","expression":"$Input_AJG_Response_Lyt/Root/headers/Content-Length","paramsCount":1,"syntax":"Header_JSON/Root/headers/Content-Length"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1752488328465"]}],"expression":"$Input_AJG_Response_Lyt/Root/headers/Content-Length","targetrecord":"headers","mapping":[{"sourceName":"AJG_Response_Lyt","operatortype":"field","sourcefield":"Content-Length","sourcefielddisplayname":"Content-Length","sourcefieldpath":"/Root/headers/Content-Length","sourcerecord":"headers","id":"Mapping-4"}],"markComplete":false,"mapId":"Header_JSON/Root/headers/Content-Length"},{"order":1,"targetName":"Header_JSON","targetfield":"Authorization","targetfieldpath":"/Root/headers/Authorization","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1752488331093","elementItem":{"elementType":"SourceElement","name":"Authorization","expression":"$Input_AJG_Response_Lyt/Root/headers/Authorization","paramsCount":0,"syntax":"$Input_AJG_Response_Lyt/Root/headers/Authorization"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1752488331094_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1752488331094"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1752488331094","elementItem":{"elementType":"TargetElement","name":"Authorization","expression":"$Input_AJG_Response_Lyt/Root/headers/Authorization","paramsCount":1,"syntax":"Header_JSON/Root/headers/Authorization"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1752488331093"]}],"expression":"$Input_AJG_Response_Lyt/Root/headers/Authorization","targetrecord":"headers","mapping":[{"sourceName":"AJG_Response_Lyt","operatortype":"field","sourcefield":"Authorization","sourcefielddisplayname":"Authorization","sourcefieldpath":"/Root/headers/Authorization","sourcerecord":"headers","id":"Mapping-5"}],"markComplete":false,"mapId":"Header_JSON/Root/headers/Authorization"},{"order":1,"targetName":"Header_JSON","targetfield":"Content-Type","targetfieldpath":"/Root/headers/Content-Type","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1752488336799","elementItem":{"elementType":"SourceElement","name":"Content-Type","expression":"$Input_AJG_Response_Lyt/Root/headers/Content-Type","paramsCount":0,"syntax":"$Input_AJG_Response_Lyt/Root/headers/Content-Type"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1752488336800_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1752488336800"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1752488336800","elementItem":{"elementType":"TargetElement","name":"Content-Type","expression":"$Input_AJG_Response_Lyt/Root/headers/Content-Type","paramsCount":1,"syntax":"Header_JSON/Root/headers/Content-Type"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1752488336799"]}],"expression":"$Input_AJG_Response_Lyt/Root/headers/Content-Type","targetrecord":"headers","mapping":[{"sourceName":"AJG_Response_Lyt","operatortype":"field","sourcefield":"Content-Type","sourcefielddisplayname":"Content-Type","sourcefieldpath":"/Root/headers/Content-Type","sourcerecord":"headers","id":"Mapping-6"}],"markComplete":false,"mapId":"Header_JSON/Root/headers/Content-Type"},{"order":1,"targetName":"Header_JSON","targetfield":"Host","targetfieldpath":"/Root/headers/Host","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1752488339757","elementItem":{"elementType":"SourceElement","name":"Host","expression":"$Input_AJG_Response_Lyt/Root/headers/Host","paramsCount":0,"syntax":"$Input_AJG_Response_Lyt/Root/headers/Host"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1752488339758_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1752488339758"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1752488339758","elementItem":{"elementType":"TargetElement","name":"Host","expression":"$Input_AJG_Response_Lyt/Root/headers/Host","paramsCount":1,"syntax":"Header_JSON/Root/headers/Host"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1752488339757"]}],"expression":"$Input_AJG_Response_Lyt/Root/headers/Host","targetrecord":"headers","mapping":[{"sourceName":"AJG_Response_Lyt","operatortype":"field","sourcefield":"Host","sourcefielddisplayname":"Host","sourcefieldpath":"/Root/headers/Host","sourcerecord":"headers","id":"Mapping-7"}],"markComplete":false,"mapId":"Header_JSON/Root/headers/Host"},{"order":1,"targetName":"Header_JSON","targetfield":"Postman-Token","targetfieldpath":"/Root/headers/Postman-Token","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1752488342317","elementItem":{"elementType":"SourceElement","name":"Postman-Token","expression":"$Input_AJG_Response_Lyt/Root/headers/Postman-Token","paramsCount":0,"syntax":"$Input_AJG_Response_Lyt/Root/headers/Postman-Token"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1752488342318_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1752488342318"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1752488342318","elementItem":{"elementType":"TargetElement","name":"Postman-Token","expression":"$Input_AJG_Response_Lyt/Root/headers/Postman-Token","paramsCount":1,"syntax":"Header_JSON/Root/headers/Postman-Token"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1752488342317"]}],"expression":"$Input_AJG_Response_Lyt/Root/headers/Postman-Token","targetrecord":"headers","mapping":[{"sourceName":"AJG_Response_Lyt","operatortype":"field","sourcefield":"Postman-Token","sourcefielddisplayname":"Postman-Token","sourcefieldpath":"/Root/headers/Postman-Token","sourcerecord":"headers","id":"Mapping-8"}],"markComplete":false,"mapId":"Header_JSON/Root/headers/Postman-Token"},{"order":1,"targetName":"Header_JSON","targetfield":"User-Agent","targetfieldpath":"/Root/headers/User-Agent","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1752488344149","elementItem":{"elementType":"SourceElement","name":"User-Agent","expression":"$Input_AJG_Response_Lyt/Root/headers/User-Agent","paramsCount":0,"syntax":"$Input_AJG_Response_Lyt/Root/headers/User-Agent"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1752488344150_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1752488344150"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1752488344150","elementItem":{"elementType":"TargetElement","name":"User-Agent","expression":"$Input_AJG_Response_Lyt/Root/headers/User-Agent","paramsCount":1,"syntax":"Header_JSON/Root/headers/User-Agent"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1752488344149"]}],"expression":"$Input_AJG_Response_Lyt/Root/headers/User-Agent","targetrecord":"headers","mapping":[{"sourceName":"AJG_Response_Lyt","operatortype":"field","sourcefield":"User-Agent","sourcefielddisplayname":"User-Agent","sourcefieldpath":"/Root/headers/User-Agent","sourcerecord":"headers","id":"Mapping-9"}],"markComplete":false,"mapId":"Header_JSON/Root/headers/User-Agent"},{"order":1,"targetName":"Header_JSON","targetfield":"X-Amzn-Trace-Id","targetfieldpath":"/Root/headers/X-Amzn-Trace-Id","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1752488350669","elementItem":{"elementType":"SourceElement","name":"X-Amzn-Trace-Id","expression":"$Input_AJG_Response_Lyt/Root/headers/X-Amzn-Trace-Id","paramsCount":0,"syntax":"$Input_AJG_Response_Lyt/Root/headers/X-Amzn-Trace-Id"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1752488350670_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1752488350670"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1752488350670","elementItem":{"elementType":"TargetElement","name":"X-Amzn-Trace-Id","expression":"$Input_AJG_Response_Lyt/Root/headers/X-Amzn-Trace-Id","paramsCount":1,"syntax":"Header_JSON/Root/headers/X-Amzn-Trace-Id"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1752488350669"]}],"expression":"$Input_AJG_Response_Lyt/Root/headers/X-Amzn-Trace-Id","targetrecord":"headers","mapping":[{"sourceName":"AJG_Response_Lyt","operatortype":"field","sourcefield":"X-Amzn-Trace-Id","sourcefielddisplayname":"X-Amzn-Trace-Id","sourcefieldpath":"/Root/headers/X-Amzn-Trace-Id","sourcerecord":"headers","id":"Mapping-10"}],"markComplete":false,"mapId":"Header_JSON/Root/headers/X-Amzn-Trace-Id"}],"sourceExpandLevel":3,"targetExpandLevel":3,"modifiedDate":1752488362000,"isSaveAfterWarnings":false}]]></au_json>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_aimapTrained><![CDATA[0]]></au_aimapTrained>
+        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
+        <au_version><![CDATA[1]]></au_version>
+        <au_aimapFreeze><![CDATA[0]]></au_aimapFreeze>
+        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
+        <au_metadata><![CDATA[]]></au_metadata>
+        <au_numberOfRecords><![CDATA[500]]></au_numberOfRecords>
+        <au_targetSchema><![CDATA[JSONSchema:1394261691246571520]]></au_targetSchema>
+    </AU_MAPPINGTRANSFORMATION>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_splitFile" type="3"/>
+        <column name="au_numberOfRecords" type="4"/>
+        <column name="au_optimizedLoading" type="3"/>
+        <column name="au_sourceSchema" type="12"/>
+        <column name="au_targetSchema" type="12"/>
+        <column name="au_xslFile" type="-1"/>
+        <column name="au_metadata" type="12"/>
+        <column name="au_mapXmlFile" type="-1"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_pdfFileName" type="12"/>
+        <column name="au_parallelProcessing" type="3"/>
+        <column name="au_concurrentProcessors" type="4"/>
+        <column name="au_dbInfoName" type="12"/>
+        <column name="au_customAutoMap" type="-1"/>
+        <column name="au_valueMap" type="-1"/>
+        <column name="au_xslTemplate" type="-1"/>
+        <column name="au_xslTransformer" type="12"/>
+        <column name="au_characterSetEncoding" type="12"/>
+        <column name="au_enableAIMap" type="3"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_storedProcedure" type="-1"/>
+        <column name="au_aimapFreeze" type="3"/>
+        <column name="au_aimapTrained" type="3"/>
+        <column name="AU_MULTI_VALUED_MAP" type="-1"/>
+    </columnInfo>
+</data>

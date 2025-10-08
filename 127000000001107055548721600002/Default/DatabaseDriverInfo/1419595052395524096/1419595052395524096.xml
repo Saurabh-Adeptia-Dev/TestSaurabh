@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_DBDRIVER>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <driverJarFiles><![CDATA[postgresql-42.7.8.jar]]></driverJarFiles>
+        <au_creationDate><![CDATA[2025-09-22T13:33:55]]></au_creationDate>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_version><![CDATA[1]]></au_version>
+        <au_id><![CDATA[1419595052395524096]]></au_id>
+        <au_modifiedDate><![CDATA[2025-09-22T13:33:55]]></au_modifiedDate>
+        <au_driverClassName><![CDATA[org.postgresql.Driver]]></au_driverClassName>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_description><![CDATA[Postgres_Driver]]></au_description>
+        <au_entityName><![CDATA[Postgres_Driver]]></au_entityName>
+    </AU_DBDRIVER>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="driverJarFiles" type="12"/>
+        <column name="au_driverClassName" type="12"/>
+    </columnInfo>
+</data>

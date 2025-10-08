@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAPPINGTRANSFORMATION>
+        <au_modifiedDate><![CDATA[2025-09-23T10:35:36]]></au_modifiedDate>
+        <au_optimizedLoading><![CDATA[1]]></au_optimizedLoading>
+        <au_numberOfRecords><![CDATA[500]]></au_numberOfRecords>
+        <au_description><![CDATA[DM_Postgres_TGT]]></au_description>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":"","filters":"","variables":{"variable":[]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"isAutoSaveEnable":true},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":null,"sourceXpath":"","targetXpath":"","connectorInfo":{},"cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":"500","parallelProcessing":false,"maximumConcurrentProcessor":"1","CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"metaData":"","processElementFormDefault":true,"mappingInformation":{"mappingVersion":"6.1","mappingName":"DM_Postgres_TGT","mappingProject":"Default","mappingDescription":"DM_Postgres_TGT","sourceSchemaID":"TextSchema:1419601977380171776","targetSchemaID":"AdvanceDbSchema:1419912245675028480","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":null},"namespace":"","namespaceList":[],"foreach":"","targetRoots":{"targetRoot":[{"name":"DB","schemaName":"Postgres_DB_lyt","schemaID":"AdvanceDbSchema:1419912245675028480","stream":"output_1"}]},"sourceRoots":{"sourceRoot":[{"name":"Root","schemaName":"Test_layout_post","schemaID":"TextSchema:1419601977380171776"}]},"contextSchemaDefinition":"","maps":[{"order":1,"targetName":"Postgres_DB_lyt","targetfield":"employee","targetfieldpath":"/DB/employee","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1758603899878","elementItem":{"elementType":"SourceElement","name":"Record","expression":"$Input_Test_layout_post/Root/Record","paramsCount":0,"syntax":"$Input_Test_layout_post/Root/Record"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1758603899879_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1758603899879"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1758603899879","elementItem":{"elementType":"TargetElement","name":"employee","expression":"$Input_Test_layout_post/Root/Record","paramsCount":1,"syntax":"Postgres_DB_lyt/DB/employee"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1758603899878"]}],"expression":"$Input_Test_layout_post/Root/Record","targetrecord":"DB","mapping":[{"sourceName":"Test_layout_post","operatortype":"field","sourcefield":"Record","sourcefielddisplayname":"Record","sourcefieldpath":"/Root/Record","sourcerecord":"Root"}],"markComplete":false,"mapId":"Map-1"},{"order":1,"targetName":"Postgres_DB_lyt","targetfield":"emp_id","targetfieldpath":"/DB/employee/emp_id","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1758603901521","elementItem":{"elementType":"SourceElement","name":"EMP_ID","expression":"$Input_Test_layout_post/Root/Record/EMP_ID","paramsCount":0,"syntax":"$Input_Test_layout_post/Root/Record/EMP_ID"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1758603901522_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1758603901522"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1758603901522","elementItem":{"elementType":"TargetElement","name":"emp_id","expression":"$Input_Test_layout_post/Root/Record/EMP_ID","paramsCount":1,"syntax":"Postgres_DB_lyt/DB/employee/emp_id"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1758603901521"]}],"expression":"$Input_Test_layout_post/Root/Record/EMP_ID","targetrecord":"employee","mapping":[{"sourceName":"Test_layout_post","operatortype":"field","sourcefield":"EMP_ID","sourcefielddisplayname":"EMP_ID","sourcefieldpath":"/Root/Record/EMP_ID","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-2"},{"order":1,"targetName":"Postgres_DB_lyt","targetfield":"first_name","targetfieldpath":"/DB/employee/first_name","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1758603903667","elementItem":{"elementType":"SourceElement","name":"FIRST_NAME","expression":"$Input_Test_layout_post/Root/Record/FIRST_NAME","paramsCount":0,"syntax":"$Input_Test_layout_post/Root/Record/FIRST_NAME"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1758603903668_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1758603903668"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1758603903668","elementItem":{"elementType":"TargetElement","name":"first_name","expression":"$Input_Test_layout_post/Root/Record/FIRST_NAME","paramsCount":1,"syntax":"Postgres_DB_lyt/DB/employee/first_name"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1758603903667"]}],"expression":"$Input_Test_layout_post/Root/Record/FIRST_NAME","targetrecord":"employee","mapping":[{"sourceName":"Test_layout_post","operatortype":"field","sourcefield":"FIRST_NAME","sourcefielddisplayname":"FIRST_NAME","sourcefieldpath":"/Root/Record/FIRST_NAME","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-3"},{"order":1,"targetName":"Postgres_DB_lyt","targetfield":"last_name","targetfieldpath":"/DB/employee/last_name","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1758603905507","elementItem":{"elementType":"SourceElement","name":"LAST_NAME","expression":"$Input_Test_layout_post/Root/Record/LAST_NAME","paramsCount":0,"syntax":"$Input_Test_layout_post/Root/Record/LAST_NAME"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1758603905508_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1758603905508"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1758603905508","elementItem":{"elementType":"TargetElement","name":"last_name","expression":"$Input_Test_layout_post/Root/Record/LAST_NAME","paramsCount":1,"syntax":"Postgres_DB_lyt/DB/employee/last_name"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1758603905507"]}],"expression":"$Input_Test_layout_post/Root/Record/LAST_NAME","targetrecord":"employee","mapping":[{"sourceName":"Test_layout_post","operatortype":"field","sourcefield":"LAST_NAME","sourcefielddisplayname":"LAST_NAME","sourcefieldpath":"/Root/Record/LAST_NAME","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-4"},{"order":1,"targetName":"Postgres_DB_lyt","targetfield":"email","targetfieldpath":"/DB/employee/email","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1758603907115","elementItem":{"elementType":"SourceElement","name":"EMAIL","expression":"$Input_Test_layout_post/Root/Record/EMAIL","paramsCount":0,"syntax":"$Input_Test_layout_post/Root/Record/EMAIL"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1758603907116_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1758603907116"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1758603907116","elementItem":{"elementType":"TargetElement","name":"email","expression":"$Input_Test_layout_post/Root/Record/EMAIL","paramsCount":1,"syntax":"Postgres_DB_lyt/DB/employee/email"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1758603907115"]}],"expression":"$Input_Test_layout_post/Root/Record/EMAIL","targetrecord":"employee","mapping":[{"sourceName":"Test_layout_post","operatortype":"field","sourcefield":"EMAIL","sourcefielddisplayname":"EMAIL","sourcefieldpath":"/Root/Record/EMAIL","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-5"},{"order":1,"targetName":"Postgres_DB_lyt","targetfield":"phone_number","targetfieldpath":"/DB/employee/phone_number","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1758603909721","elementItem":{"elementType":"SourceElement","name":"PHONE_NUMBER","expression":"$Input_Test_layout_post/Root/Record/PHONE_NUMBER","paramsCount":0,"syntax":"$Input_Test_layout_post/Root/Record/PHONE_NUMBER"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1758603909722_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1758603909722"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1758603909722","elementItem":{"elementType":"TargetElement","name":"phone_number","expression":"$Input_Test_layout_post/Root/Record/PHONE_NUMBER","paramsCount":1,"syntax":"Postgres_DB_lyt/DB/employee/phone_number"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1758603909721"]}],"expression":"$Input_Test_layout_post/Root/Record/PHONE_NUMBER","targetrecord":"employee","mapping":[{"sourceName":"Test_layout_post","operatortype":"field","sourcefield":"PHONE_NUMBER","sourcefielddisplayname":"PHONE_NUMBER","sourcefieldpath":"/Root/Record/PHONE_NUMBER","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-6"},{"order":1,"targetName":"Postgres_DB_lyt","targetfield":"hire_date","targetfieldpath":"/DB/employee/hire_date","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1758603911957","elementItem":{"elementType":"SourceElement","name":"HIRE_DATE","expression":"$Input_Test_layout_post/Root/Record/HIRE_DATE","paramsCount":0,"syntax":"$Input_Test_layout_post/Root/Record/HIRE_DATE"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1758603911958_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1758603911958"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1758603911958","elementItem":{"elementType":"TargetElement","name":"hire_date","expression":"$Input_Test_layout_post/Root/Record/HIRE_DATE","paramsCount":1,"syntax":"Postgres_DB_lyt/DB/employee/hire_date"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1758603911957"]}],"expression":"$Input_Test_layout_post/Root/Record/HIRE_DATE","targetrecord":"employee","mapping":[{"sourceName":"Test_layout_post","operatortype":"field","sourcefield":"HIRE_DATE","sourcefielddisplayname":"HIRE_DATE","sourcefieldpath":"/Root/Record/HIRE_DATE","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-7"},{"order":1,"targetName":"Postgres_DB_lyt","targetfield":"job_title","targetfieldpath":"/DB/employee/job_title","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1758603914133","elementItem":{"elementType":"SourceElement","name":"JOB_TITLE","expression":"$Input_Test_layout_post/Root/Record/JOB_TITLE","paramsCount":0,"syntax":"$Input_Test_layout_post/Root/Record/JOB_TITLE"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1758603914134_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1758603914134"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1758603914134","elementItem":{"elementType":"TargetElement","name":"job_title","expression":"$Input_Test_layout_post/Root/Record/JOB_TITLE","paramsCount":1,"syntax":"Postgres_DB_lyt/DB/employee/job_title"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1758603914133"]}],"expression":"$Input_Test_layout_post/Root/Record/JOB_TITLE","targetrecord":"employee","mapping":[{"sourceName":"Test_layout_post","operatortype":"field","sourcefield":"JOB_TITLE","sourcefielddisplayname":"JOB_TITLE","sourcefieldpath":"/Root/Record/JOB_TITLE","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-8"},{"order":1,"targetName":"Postgres_DB_lyt","targetfield":"salary","targetfieldpath":"/DB/employee/salary","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1758603916747","elementItem":{"elementType":"SourceElement","name":"SALARY","expression":"$Input_Test_layout_post/Root/Record/SALARY","paramsCount":0,"syntax":"$Input_Test_layout_post/Root/Record/SALARY"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1758603916748_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1758603916748"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1758603916748","elementItem":{"elementType":"TargetElement","name":"salary","expression":"$Input_Test_layout_post/Root/Record/SALARY","paramsCount":1,"syntax":"Postgres_DB_lyt/DB/employee/salary"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1758603916747"]}],"expression":"$Input_Test_layout_post/Root/Record/SALARY","targetrecord":"employee","mapping":[{"sourceName":"Test_layout_post","operatortype":"field","sourcefield":"SALARY","sourcefielddisplayname":"SALARY","sourcefieldpath":"/Root/Record/SALARY","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-9"},{"order":1,"targetName":"Postgres_DB_lyt","targetfield":"department","targetfieldpath":"/DB/employee/department","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1758603919177","elementItem":{"elementType":"SourceElement","name":"DEPARTMENT","expression":"$Input_Test_layout_post/Root/Record/DEPARTMENT","paramsCount":0,"syntax":"$Input_Test_layout_post/Root/Record/DEPARTMENT"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1758603919178_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1758603919178"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1758603919178","elementItem":{"elementType":"TargetElement","name":"department","expression":"$Input_Test_layout_post/Root/Record/DEPARTMENT","paramsCount":1,"syntax":"Postgres_DB_lyt/DB/employee/department"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1758603919177"]}],"expression":"$Input_Test_layout_post/Root/Record/DEPARTMENT","targetrecord":"employee","mapping":[{"sourceName":"Test_layout_post","operatortype":"field","sourcefield":"DEPARTMENT","sourcefielddisplayname":"DEPARTMENT","sourcefieldpath":"/Root/Record/DEPARTMENT","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-10"}],"sourceExpandLevel":3,"targetExpandLevel":3,"modifiedDate":"1758603926893","isSaveAfterWarnings":false}]]></au_json>
+        <au_sourceSchema><![CDATA[TextSchema:1419601977380171776]]></au_sourceSchema>
+        <au_metadata><![CDATA[]]></au_metadata>
+        <au_parallelProcessing><![CDATA[0]]></au_parallelProcessing>
+        <au_aimapTrained><![CDATA[0]]></au_aimapTrained>
+        <au_version><![CDATA[1]]></au_version>
+        <au_aimapFreeze><![CDATA[0]]></au_aimapFreeze>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_mapXmlFile><![CDATA[<?xml version="1.0" encoding="UTF-8"?><maps version="4.4">
+<mappingInformation>
+    <mappingVersion>6.1</mappingVersion>
+    <mappingName>DM_Postgres_TGT</mappingName>
+    <mappingProject>Default</mappingProject>
+    <mappingDescription>DM_Postgres_TGT</mappingDescription>
+    <sourceSchemaID>TextSchema:1419601977380171776</sourceSchemaID>
+    <targetSchemaID>AdvanceDbSchema:1419912245675028480</targetSchemaID>
+    <mappingOwnerGroup>administrators</mappingOwnerGroup>
+    <mappingOwner>Admin User</mappingOwner>
+    <mappingLastModifiedBy>Admin User</mappingLastModifiedBy>
+    <mappingCreationDate>Tue Sep 23 10:35:27 IST 2025</mappingCreationDate>
+    <mappingModifiedDate>Tue Sep 23 10:35:34 IST 2025</mappingModifiedDate>
+    <reusable>null</reusable>
+</mappingInformation>
+<sourceRoots>
+    <sourceRoot>
+        <name>Root</name>
+        <schemaName>Test_layout_post</schemaName>
+        <schemaID>TextSchema:1419601977380171776</schemaID>
+    </sourceRoot>
+</sourceRoots>
+<targetRoots>
+    <targetRoot>
+        <name>DB</name>
+        <schemaName>Postgres_DB_lyt</schemaName>
+        <schemaID>AdvanceDbSchema:1419912245675028480</schemaID>
+        <stream>output_1</stream>
+    </targetRoot>
+</targetRoots>
+<nameSpace/>
+<xslProperty/>
+<GlobalPreCustomXSL/>
+<GlobalPostCustomXSL/>
+<xslTemplates/>
+<map>
+<order>1</order>
+ <targetName>Postgres_DB_lyt</targetName>
+<dest>/DB/employee</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Test_layout_post/Root/Record</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="employee">
+<Position height="25" identify="&lt;T&gt;" label="/DB/employee" mapString="$Input_Test_layout_post/Root/Record" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_Test_layout_post/Root/Record" mapString="&lt;S&gt;$Input_Test_layout_post/Root/Record" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Postgres_DB_lyt</targetName>
+<dest>/DB/employee/emp_id</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Test_layout_post/Root/Record/EMP_ID</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="emp_id">
+<Position height="25" identify="&lt;T&gt;" label="/DB/employee/emp_id" mapString="$Input_Test_layout_post/Root/Record/EMP_ID" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_Test_layout_post/Root/Record/EMP_ID" mapString="&lt;S&gt;$Input_Test_layout_post/Root/Record/EMP_ID" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Postgres_DB_lyt</targetName>
+<dest>/DB/employee/first_name</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Test_layout_post/Root/Record/FIRST_NAME</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="first_name">
+<Position height="25" identify="&lt;T&gt;" label="/DB/employee/first_name" mapString="$Input_Test_layout_post/Root/Record/FIRST_NAME" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_Test_layout_post/Root/Record/FIRST_NAME" mapString="&lt;S&gt;$Input_Test_layout_post/Root/Record/FIRST_NAME" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Postgres_DB_lyt</targetName>
+<dest>/DB/employee/last_name</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Test_layout_post/Root/Record/LAST_NAME</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="last_name">
+<Position height="25" identify="&lt;T&gt;" label="/DB/employee/last_name" mapString="$Input_Test_layout_post/Root/Record/LAST_NAME" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_Test_layout_post/Root/Record/LAST_NAME" mapString="&lt;S&gt;$Input_Test_layout_post/Root/Record/LAST_NAME" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Postgres_DB_lyt</targetName>
+<dest>/DB/employee/email</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Test_layout_post/Root/Record/EMAIL</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="email">
+<Position height="25" identify="&lt;S&gt;" label="$Input_Test_layout_post/Root/Record/EMAIL" mapString="&lt;S&gt;$Input_Test_layout_post/Root/Record/EMAIL" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/DB/employee/email" mapString="$Input_Test_layout_post/Root/Record/EMAIL" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Postgres_DB_lyt</targetName>
+<dest>/DB/employee/phone_number</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Test_layout_post/Root/Record/PHONE_NUMBER</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="phone_number">
+<Position height="25" identify="&lt;T&gt;" label="/DB/employee/phone_number" mapString="$Input_Test_layout_post/Root/Record/PHONE_NUMBER" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_Test_layout_post/Root/Record/PHONE_NUMBER" mapString="&lt;S&gt;$Input_Test_layout_post/Root/Record/PHONE_NUMBER" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Postgres_DB_lyt</targetName>
+<dest>/DB/employee/hire_date</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Test_layout_post/Root/Record/HIRE_DATE</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="hire_date">
+<Position height="25" identify="&lt;T&gt;" label="/DB/employee/hire_date" mapString="$Input_Test_layout_post/Root/Record/HIRE_DATE" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_Test_layout_post/Root/Record/HIRE_DATE" mapString="&lt;S&gt;$Input_Test_layout_post/Root/Record/HIRE_DATE" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Postgres_DB_lyt</targetName>
+<dest>/DB/employee/job_title</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Test_layout_post/Root/Record/JOB_TITLE</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="job_title">
+<Position height="25" identify="&lt;S&gt;" label="$Input_Test_layout_post/Root/Record/JOB_TITLE" mapString="&lt;S&gt;$Input_Test_layout_post/Root/Record/JOB_TITLE" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/DB/employee/job_title" mapString="$Input_Test_layout_post/Root/Record/JOB_TITLE" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Postgres_DB_lyt</targetName>
+<dest>/DB/employee/salary</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Test_layout_post/Root/Record/SALARY</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="salary">
+<Position height="25" identify="&lt;S&gt;" label="$Input_Test_layout_post/Root/Record/SALARY" mapString="&lt;S&gt;$Input_Test_layout_post/Root/Record/SALARY" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/DB/employee/salary" mapString="$Input_Test_layout_post/Root/Record/SALARY" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>Postgres_DB_lyt</targetName>
+<dest>/DB/employee/department</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_Test_layout_post/Root/Record/DEPARTMENT</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="department">
+<Position height="25" identify="&lt;T&gt;" label="/DB/employee/department" mapString="$Input_Test_layout_post/Root/Record/DEPARTMENT" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_Test_layout_post/Root/Record/DEPARTMENT" mapString="&lt;S&gt;$Input_Test_layout_post/Root/Record/DEPARTMENT" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<variables>
+</variables>
+
+<globalParameters>
+<keys>
+</keys>
+<contextVariables>
+</contextVariables>
+</globalParameters>
+
+<connections/>
+<functions>
+</functions>
+<disableOutputNodes>
+</disableOutputNodes>
+<filters/>
+    <valuemapNodes/>
+<accessLevel>
+<valueMap>global</valueMap>
+        <globalTemplate>global</globalTemplate>
+        <customAutoMap>global</customAutoMap>
+</accessLevel>
+<DataViewerRecordCount>50</DataViewerRecordCount>
+<isQuickSplittingEnabled>false</isQuickSplittingEnabled>
+<sourceExtensions/>
+<targetExtensions/>
+<disableOutputNodes/>
+<characterSetEncoding>UTF-8</characterSetEncoding>
+<tipOfTheDay>true</tipOfTheDay>
+<contextSchemaLoadedAtSource>false</contextSchemaLoadedAtSource>
+<contextSchemaLoadedAtTarget>false</contextSchemaLoadedAtTarget>
+<contextSchemaDefinition/>
+<filterUnmappedElement>false</filterUnmappedElement>
+<indentOutputXML>true</indentOutputXML>
+    <streamingMode>false</streamingMode>
+    <filterEmptyElements>false</filterEmptyElements>
+    <dbQueryCaching>false</dbQueryCaching>
+<cacheIncludedSchemas>false</cacheIncludedSchemas>
+<TreeExpandLevelCount>3</TreeExpandLevelCount>
+<TreeExpandLevelCountForWebService>5</TreeExpandLevelCountForWebService>
+<TreeExpandLevelForEasySchemaExtensions>10</TreeExpandLevelForEasySchemaExtensions>
+    <SelfRecursionLevel>0</SelfRecursionLevel>
+    <EnableTypesBuffering>true</EnableTypesBuffering>
+    <CdataSectionElements/>
+<excludeResultPrefixes> saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str</excludeResultPrefixes>
+<webservice>
+    <consumers/>
+</webservice>
+
+<CustomAutoMapInUse/>
+<processElementFormDefault>true</processElementFormDefault>
+<xslVersion2.0>false</xslVersion2.0>
+<xslVersion3.0>false</xslVersion3.0>
+<sourceXpath/>
+<targetXpath/>
+</maps>
+]]></au_mapXmlFile>
+        <au_splitFile><![CDATA[0]]></au_splitFile>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
+        <AU_MULTI_VALUED_MAP><![CDATA[<MultiValuedMap/>]]></AU_MULTI_VALUED_MAP>
+        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
+        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
+        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
+        <au_pdfFileName><![CDATA[Adp_Map_Rules12950358156557820155.pdf]]></au_pdfFileName>
+        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_concurrentProcessors><![CDATA[1]]></au_concurrentProcessors>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_entityName><![CDATA[DM_Postgres_TGT]]></au_entityName>
+        <au_id><![CDATA[1419912525426716672]]></au_id>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_creationDate><![CDATA[2025-09-23T10:35:35]]></au_creationDate>
+        <au_xslFile><![CDATA[<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1" xmlns:saxonJavaMappingTransformation="java:com.adeptia.indigo.services.mapping.MappingTransformation" xmlns:saxonJavaMapperQueryExecutor="java:com.adeptia.indigo.services.mapping.support.dbquery.MapperQueryExecutor" xmlns:saxonJavaAggregateFunctionHandler="java:com.adeptia.indigo.services.mapping.AggregateFunctionHandler"  xmlns:str="http://exslt.org/strings" exclude-result-prefixes="saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon">
+<xsl:output method="xml" version="1.0" encoding="UTF-8" cdata-section-elements="" indent="yes" /><xsl:param name="_userName"/><xsl:param name="_password"/><xsl:param name="_class"/><xsl:param name="_identifier"/><xsl:param name="_subject"/><xsl:param name="_repositoryPath"/><xsl:param name="_Input1"/> <xsl:variable name="varConn" select="saxonJavaMapperQueryExecutor:getInstance($_identifier,'false')"/> <xsl:variable name="apos">'</xsl:variable> <xsl:variable name="quot">"</xsl:variable><xsl:template match="/"><DB><xsl:apply-templates select="Root/Record" mode="_DB_employee_order1">
+</xsl:apply-templates></DB></xsl:template><xsl:template match="/Root/Record" mode="_DB_employee_order1">
+<employee><xsl:attribute name="Action"></xsl:attribute><xsl:attribute name="RollBackOnError"></xsl:attribute><xsl:attribute name="recordNumber"></xsl:attribute><emp_id><xsl:attribute name="isNull"></xsl:attribute><xsl:value-of select="EMP_ID"/></emp_id><first_name><xsl:attribute name="isNull"></xsl:attribute><xsl:value-of select="FIRST_NAME"/></first_name><last_name><xsl:attribute name="isNull"></xsl:attribute><xsl:value-of select="LAST_NAME"/></last_name><email><xsl:attribute name="isNull"></xsl:attribute><xsl:value-of select="EMAIL"/></email><phone_number><xsl:attribute name="isNull"></xsl:attribute><xsl:value-of select="PHONE_NUMBER"/></phone_number><hire_date><xsl:attribute name="isNull"></xsl:attribute><xsl:value-of select="HIRE_DATE"/></hire_date><job_title><xsl:attribute name="isNull"></xsl:attribute><xsl:value-of select="JOB_TITLE"/></job_title><salary><xsl:attribute name="isNull"></xsl:attribute><xsl:value-of select="SALARY"/></salary><department><xsl:attribute name="isNull"></xsl:attribute><xsl:value-of select="DEPARTMENT"/></department></employee></xsl:template></xsl:stylesheet>]]></au_xslFile>
+        <au_storedProcedure><![CDATA[null]]></au_storedProcedure>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_targetSchema><![CDATA[AdvanceDbSchema:1419912245675028480]]></au_targetSchema>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <au_enableAIMap><![CDATA[0]]></au_enableAIMap>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+    </AU_MAPPINGTRANSFORMATION>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_splitFile" type="3"/>
+        <column name="au_numberOfRecords" type="4"/>
+        <column name="au_optimizedLoading" type="3"/>
+        <column name="au_sourceSchema" type="12"/>
+        <column name="au_targetSchema" type="12"/>
+        <column name="au_xslFile" type="-1"/>
+        <column name="au_metadata" type="12"/>
+        <column name="au_mapXmlFile" type="-1"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_pdfFileName" type="12"/>
+        <column name="au_parallelProcessing" type="3"/>
+        <column name="au_concurrentProcessors" type="4"/>
+        <column name="au_dbInfoName" type="12"/>
+        <column name="au_customAutoMap" type="-1"/>
+        <column name="au_valueMap" type="-1"/>
+        <column name="au_xslTemplate" type="-1"/>
+        <column name="au_xslTransformer" type="12"/>
+        <column name="au_characterSetEncoding" type="12"/>
+        <column name="au_enableAIMap" type="3"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_storedProcedure" type="-1"/>
+        <column name="au_aimapFreeze" type="3"/>
+        <column name="au_aimapTrained" type="3"/>
+        <column name="AU_MULTI_VALUED_MAP" type="-1"/>
+    </columnInfo>
+</data>
