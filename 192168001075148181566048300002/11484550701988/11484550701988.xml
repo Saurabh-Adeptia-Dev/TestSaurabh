@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_PROJECT>
+        <au_revision><![CDATA[5fdf91f23a9a6d850c55141c3e2928c4fe519098]]></au_revision>
+        <au_version><![CDATA[1]]></au_version>
+        <au_synchronized><![CDATA[1]]></au_synchronized>
+        <au_modifiedDate><![CDATA[2024-01-12T06:56:13]]></au_modifiedDate>
+        <au_description><![CDATA[Project_1]]></au_description>
+        <au_projectType><![CDATA[3700]]></au_projectType>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_userOwner><![CDATA[IndigoUser:1390336793352597504]]></au_userOwner>
+        <au_projectOwner><![CDATA[null]]></au_projectOwner>
+        <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <au_modifiedBy><![CDATA[IndigoUser:1390336793352597504]]></au_modifiedBy>
+        <au_entityName><![CDATA[Project_1]]></au_entityName>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_creationDate><![CDATA[2024-01-12T06:56:13]]></au_creationDate>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_projectGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_projectGroup>
+        <au_id><![CDATA[11484550701988]]></au_id>
+        <au_previousVersion><![CDATA[null]]></au_previousVersion>
+    </AU_PROJECT>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_projectGroup" type="12"/>
+        <column name="au_projectType" type="4"/>
+    </columnInfo>
+</data>

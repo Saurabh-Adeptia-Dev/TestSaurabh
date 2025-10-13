@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_TRANSACTION>
+        <au_id><![CDATA[1387747858162962432]]></au_id>
+        <au_connectDashboardLogging><![CDATA[1]]></au_connectDashboardLogging>
+        <au_repositoryAction><![CDATA[L]]></au_repositoryAction>
+        <au_creationDate><![CDATA[2025-06-26T10:54:32]]></au_creationDate>
+        <au_description><![CDATA[AIG_Binder_test_insert]]></au_description>
+        <au_logRetentionAction><![CDATA[L]]></au_logRetentionAction>
+        <au_advanced><![CDATA[1]]></au_advanced>
+        <au_version><![CDATA[1]]></au_version>
+        <au_webPdXml><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:ap="http://adeptia.com/schema/bpmn/ap" xmlns:bioc="http://bpmn.io/schema/bpmn/biocolor/1.0" id="sample-diagram" targetNamespace="http://bpmn.io/schema/bpmn" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
+  <bpmn2:process id="mainProcess" isExecutable="false">
+    <bpmn2:extensionElements>
+      <ap:properties>
+        <ap:property name="version">[ABPM_._ESCAPE_._CDATA_._START]1.0[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+      </ap:properties>
+      <ap:variables>
+        <ap:variable track="false">
+          <ap:name>[ABPM_._ESCAPE_._CDATA_._START]restRequest[ABPM_._ESCAPE_._CDATA_._END]</ap:name>
+          <ap:value>[ABPM_._ESCAPE_._CDATA_._START]{     "data": [         {             "id": "1",             "contract_details": {                 "general_contract_details_data": {                     "general_contract_details_form_data": {                         "partner": "Arrowhead",                         "region": "AZ",                         "division": "002",                         "agreement_number": "",                         "feed_number": "212121",                         "unique_market_reference_number": "",                         "coverholder_program_administrator": "cxc",                         "coverholder_program_administrator_address": "",                         "broker_intermediary": "",                         "producer_code": "",                         "annual_statement_company_name": "AIPI",                         "Status": "",                         "comments": "",                         "CreatedBy": "",                         "CreatedDate": "",                         "ModifiedBy": "",                         "ModifiedDate": "",                         "ApprovedBy": "",                         "ApprovedDate": "",                         "coinsurance_role": "Follow",                         "leading_coinsurer_name": "2134",                         "aig_share_percent": "123",                         "gross_premium_income_limit_program": "234",                         "currency_gross_premium_income_limit": "currency",                         "notifiable_percentage": "234"                     },                     "address": [                         {                             "coverholder_program_administrator_address": "Location 1 1 Creechurch Place, London EC3A 5AF",                             "id": "extModel242-1"                         },                         {                             "coverholder_program_administrator_address": "Location 1 2 Creechurch Place, London EC3A 5AF",                             "id": "extModel242-2"                         }                     ]                 },                 "period_details_data": {                     "program_inception_date": "05/15/2024",                     "program_expiry_date": "05/08/2024"                 },                 "commision_details_data": {                     "coverholders_commission": ""                 },                 "coinsurance_data": {                     "coinsurance": "Lead",                     "leading_coinsurer_name": "ds",                     "signed_line_percentage": "90"                 },                 "operation_and_control_data": {                     "operationAndControlGridData": [                         {                             "person_responsible_for_operation_and_control": "syden",                             "person_authorized_to_bind_insurances": "ds",                             "person_with_responsibility_for_issuance_of_documents": "df",                             "id": "extModel276-1"                         },                         {                             "person_responsible_for_operation_and_control": "maxxy",                             "person_authorized_to_bind_insurances": "ds",                             "person_with_responsibility_for_issuance_of_documents": "df",                             "id": "extModel276-2"                         }                     ]                 }             },             "line_of_business_details": {                 "risk_locations": {                     "risk_locations": [                         "AZ",                         "CA"                     ],                     "insureds_domiciled_location": [                         "CT",                         "CO"                     ],                     "territorial_limits": ""                 },                 "authorised_lines_of_business": [                     {                         "master_line_of_business": "CommercialGeneralLiability",                         "coverage_line": "OwnersContractorProtective",                         "coverage_subLine": "OwnersContractorProtective",                         "maximum_limits_of_liability_or_sums_insured": "21",                         "basis_for_calculation_of_gross_premiums": "21",                         "deductibles_excesses": "345",                         "currency": "GBP",                         "gross_premium_income_limit": "21",                         "notifiable_percentage_of_limit": "21",                         "brokers_commission": "12",                         "lob_effective_date": " ",                         "lob_expiry_date": " ",                         "id": "extModel348-1"                     }                 ]             },             "risk_reporting_period": {                 "period_of_insurances_bound_data": {                     "period_of_insurances_bound": "11",                     "maximum_period_of_insurances_bound": "123",                     "maximum_advance_period_for_inception_dates": "98"                 },                 "risks_reporting_period_data": {                     "risks_written_reporting_interval": "11",                     "max_days_for_reporting_of_risks_written": "",                     "basis_of_monitoring_aggregate_exposures": "",                     "aggregate_reporting_interval": "",                     "max_days_for_reporting_of_aggregate_exposures": "12",                     "max_total_aggregate_limits": "",                     "statistical_information_required": "",                     "reporting_intervals": "",                     "max_days_for_reporting": ""                 }             }         },         {             "id": "2",             "contract_details": {                 "general_contract_details_data": {                     "general_contract_details_form_data": {                         "partner": "Arrowhead",                         "region": "AZ",                         "division": "002",                         "agreement_number": "",                         "feed_number": "212121",                         "unique_market_reference_number": "",                         "coverholder_program_administrator": "cxc",                         "coverholder_program_administrator_address": "",                         "broker_intermediary": "",                         "producer_code": "",                         "annual_statement_company_name": "AIPI",                         "coinsurance_role": "Follow",                         "leading_coinsurer_name": "2134",                         "aig_share_percent": "123",                         "gross_premium_income_limit_program": "234",                         "currency_gross_premium_income_limit": "currency",                         "notifiable_percentage": "234"                     },                     "address": [                         {                             "coverholder_program_administrator_address": "Location 1 1 Creechurch Place, London EC3A 5AF",                             "id": "extModel242-1"                         },                         {                             "coverholder_program_administrator_address": "Location 1 2 Creechurch Place, London EC3A 5AF",                             "id": "extModel242-2"                         }                     ]                 },                 "period_details_data": {                     "program_inception_date": "05/15/2024",                     "program_expiry_date": "05/08/2024"                 },                 "commision_details_data": {                     "coverholders_commission": "",                     "brokers_commission": "12"                 },                 "coinsurance_data": {                     "coinsurance": "Lead",                     "leading_coinsurer_name": "ds",                     "signed_line_percentage": "90"                 },                 "operation_and_control_data": {                     "operationAndControlGridData": [                         {                             "person_responsible_for_operation_and_control": "syden",                             "person_authorized_to_bind_insurances": "ds",                             "person_with_responsibility_for_issuance_of_documents": "df",                             "id": "extModel276-1"                         },                         {                             "person_responsible_for_operation_and_control": "maxxy",                             "person_authorized_to_bind_insurances": "ds",                             "person_with_responsibility_for_issuance_of_documents": "df",                             "id": "extModel276-2"                         }                     ]                 }             },             "line_of_business_details": {                 "risk_locations": {                     "risk_locations": [                         "AZ",                         "CA"                     ],                     "insureds_domiciled_location": [                         "CT",                         "CO"                     ],                     "territorial_limits": ""                 },                 "authorised_lines_of_business": [                     {                         "master_line_of_business": "CommercialGeneralLiability",                         "coverage_line": "OwnersContractorProtective",                         "coverage_subLine": "OwnersContractorProtective",                         "maximum_limits_of_liability_or_sums_insured": "21",                         "basis_for_calculation_of_gross_premiums": "21",                         "deductibles_excesses": "345",                         "currency": "GBP",                         "gross_premium_income_limit": "21",                         "notifiable_percentage_of_limit": "21",                         "id": "extModel348-1"                     }                 ]             },             "risk_reporting_period": {                 "period_of_insurances_bound_data": {                     "period_of_insurances_bound": "11",                     "maximum_period_of_insurances_bound": "123",                     "maximum_advance_period_for_inception_dates": "98"                 },                 "risks_reporting_period_data": {                     "risks_written_reporting_interval": "11",                     "max_days_for_reporting_of_risks_written": "",                     "basis_of_monitoring_aggregate_exposures": "",                     "aggregate_reporting_interval": "",                     "max_days_for_reporting_of_aggregate_exposures": "12",                     "max_total_aggregate_limits": "",                     "statistical_information_required": "",                     "reporting_intervals": "",                     "max_days_for_reporting": ""                 }             }         }     ],     "count": 24 }[ABPM_._ESCAPE_._CDATA_._END]</ap:value>
+          <ap:type>[ABPM_._ESCAPE_._CDATA_._START]General[ABPM_._ESCAPE_._CDATA_._END]</ap:type>
+          <ap:activityName>[ABPM_._ESCAPE_._CDATA_._START]ContextSource[ABPM_._ESCAPE_._CDATA_._END]</ap:activityName>
+          <ap:activityType>[ABPM_._ESCAPE_._CDATA_._START]ContextSource[ABPM_._ESCAPE_._CDATA_._END]</ap:activityType>
+          <ap:activityLabel>[ABPM_._ESCAPE_._CDATA_._START]ContextSource[ABPM_._ESCAPE_._CDATA_._END]</ap:activityLabel>
+        </ap:variable>
+      </ap:variables>
+    </bpmn2:extensionElements>
+    <bpmn2:startEvent id="StartEvent_1" name="Start Event">
+      <bpmn2:outgoing>SequenceFlow_1cx4er4</bpmn2:outgoing>
+    </bpmn2:startEvent>
+    <bpmn2:task id="Task_10qdyzl" name="AIG_JSON_Insert_Binder_Data">
+      <bpmn2:extensionElements>
+        <ap:streams>
+          <ap:stream name="AIG_JSON_Insert_Binder_Data" id="stream_1rb3w7a" dataObjectReferenceId="" consumer="Task_0uxtflt" error="false" visible="false" source="Task_10qdyzl" />
+        </ap:streams>
+        <ap:node>
+          <ap:attribute name="label">[ABPM_._ESCAPE_._CDATA_._START]AIG_JSON_Insert_Binder_Data[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="type">[ABPM_._ESCAPE_._CDATA_._START]JSONSchema[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="id">[ABPM_._ESCAPE_._CDATA_._START]1237001481692880896[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="name">[ABPM_._ESCAPE_._CDATA_._START]AIG_JSON_Insert_Binder_Data[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="async">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="connector">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="signal">[ABPM_._ESCAPE_._CDATA_._START]SignalComplete[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="comments">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serverEntity">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serviceType">[ABPM_._ESCAPE_._CDATA_._START]activity[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="uiType">[ABPM_._ESCAPE_._CDATA_._START]JSONSchema[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+        </ap:node>
+        <ap:properties>
+          <ap:property name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="source">[ABPM_._ESCAPE_._CDATA_._START]ContextSource[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]AIG_JSON_Insert_Binder_Data[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]UTF-8[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="transformer">[ABPM_._ESCAPE_._CDATA_._START]Stream2XmlStreamTransformer[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="intermediateFormat">[ABPM_._ESCAPE_._CDATA_._START]Native[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="dataAction">[ABPM_._ESCAPE_._CDATA_._START]No Action[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+        </ap:properties>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_15yz9oj</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_1hu5si0</bpmn2:outgoing>
+    </bpmn2:task>
+    <bpmn2:task id="Task_0uxtflt" name="AIG_INSERT_BINDER_DATA_TEST">
+      <bpmn2:extensionElements>
+        <ap:streams>
+          <ap:stream name="AIG_INSERT_BINDER_DATA_TEST" id="stream_1thxp8z" dataObjectReferenceId="" consumer="Task_1ym0p0n" error="false" visible="false" source="Task_0uxtflt" />
+        </ap:streams>
+        <ap:node>
+          <ap:attribute name="label">[ABPM_._ESCAPE_._CDATA_._START]AIG_INSERT_BINDER_DATA_TEST[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="type">[ABPM_._ESCAPE_._CDATA_._START]DataMapping[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="id">[ABPM_._ESCAPE_._CDATA_._START]1387746873751425024[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="name">[ABPM_._ESCAPE_._CDATA_._START]AIG_INSERT_BINDER_DATA_TEST[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="async">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="connector">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="signal">[ABPM_._ESCAPE_._CDATA_._START]SignalComplete[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="comments">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serverEntity">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serviceType">[ABPM_._ESCAPE_._CDATA_._START]activity[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="uiType">[ABPM_._ESCAPE_._CDATA_._START]DataMapping[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+        </ap:node>
+        <ap:properties>
+          <ap:property name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="source">[ABPM_._ESCAPE_._CDATA_._START]AIG_JSON_Insert_Binder_Data[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]AIG_INSERT_BINDER_DATA_TEST[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]UTF-8[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="generateStream">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="consumeStream">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="transformerType">[ABPM_._ESCAPE_._CDATA_._START]Saxon[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+        </ap:properties>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_1hu5si0</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_03c2o90</bpmn2:outgoing>
+    </bpmn2:task>
+    <bpmn2:task id="Task_1ym0p0n" name="AIG_ADBT_Binder_DB">
+      <bpmn2:extensionElements>
+        <ap:properties>
+          <ap:property name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="source">[ABPM_._ESCAPE_._CDATA_._START]AIG_INSERT_BINDER_DATA_TEST[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]null[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]None[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="generateStream">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+        </ap:properties>
+        <ap:node>
+          <ap:attribute name="label">[ABPM_._ESCAPE_._CDATA_._START]AIG_ADBT_Binder_DB[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="type">[ABPM_._ESCAPE_._CDATA_._START]AdvancedDatabaseTarget[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="id">[ABPM_._ESCAPE_._CDATA_._START]1237035209404162048[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="name">[ABPM_._ESCAPE_._CDATA_._START]AIG_ADBT_Binder_DB[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="async">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="connector">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="signal">[ABPM_._ESCAPE_._CDATA_._START]SignalComplete[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="comments">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serverEntity">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serviceType">[ABPM_._ESCAPE_._CDATA_._START]activity[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="uiType">[ABPM_._ESCAPE_._CDATA_._START]AdvancedDatabaseTarget[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+        </ap:node>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_03c2o90</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_1xeqf0b</bpmn2:outgoing>
+    </bpmn2:task>
+    <bpmn2:sequenceFlow id="SequenceFlow_03c2o90" sourceRef="Task_0uxtflt" targetRef="Task_1ym0p0n" />
+    <bpmn2:endEvent id="EndEvent_0e5ue5i" name="End Event">
+      <bpmn2:extensionElements>
+        <ap:properties>
+          <ap:property name="attachNotification">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="mailNotification">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+        </ap:properties>
+        <ap:node>
+          <ap:attribute name="label">[ABPM_._ESCAPE_._CDATA_._START]End Event[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="comments">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+        </ap:node>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_1xeqf0b</bpmn2:incoming>
+    </bpmn2:endEvent>
+    <bpmn2:sequenceFlow id="SequenceFlow_1xeqf0b" sourceRef="Task_1ym0p0n" targetRef="EndEvent_0e5ue5i" />
+    <bpmn2:sequenceFlow id="SequenceFlow_1hu5si0" sourceRef="Task_10qdyzl" targetRef="Task_0uxtflt" />
+    <bpmn2:task id="Task_1argwvp" name="ContextSource">
+      <bpmn2:extensionElements>
+        <ap:streams>
+          <ap:stream name="ContextSource" id="stream_1k4u2kw" dataObjectReferenceId="" consumer="Task_10qdyzl" error="false" visible="false" source="Task_1argwvp" />
+        </ap:streams>
+        <ap:variables>
+          <ap:variable>
+            <ap:name>[ABPM_._ESCAPE_._CDATA_._START]restRequest[ABPM_._ESCAPE_._CDATA_._END]</ap:name>
+            <ap:value>[ABPM_._ESCAPE_._CDATA_._START]{     "data": [         {             "id": "1",             "contract_details": {                 "general_contract_details_data": {                     "general_contract_details_form_data": {                         "partner": "Arrowhead",                         "region": "AZ",                         "division": "002",                         "agreement_number": "",                         "feed_number": "212121",                         "unique_market_reference_number": "",                         "coverholder_program_administrator": "cxc",                         "coverholder_program_administrator_address": "",                         "broker_intermediary": "",                         "producer_code": "",                         "annual_statement_company_name": "AIPI",                         "Status": "",                         "comments": "",                         "CreatedBy": "",                         "CreatedDate": "",                         "ModifiedBy": "",                         "ModifiedDate": "",                         "ApprovedBy": "",                         "ApprovedDate": "",                         "coinsurance_role": "Follow",                         "leading_coinsurer_name": "2134",                         "aig_share_percent": "123",                         "gross_premium_income_limit_program": "234",                         "currency_gross_premium_income_limit": "currency",                         "notifiable_percentage": "234"                     },                     "address": [                         {                             "coverholder_program_administrator_address": "Location 1 1 Creechurch Place, London EC3A 5AF",                             "id": "extModel242-1"                         },                         {                             "coverholder_program_administrator_address": "Location 1 2 Creechurch Place, London EC3A 5AF",                             "id": "extModel242-2"                         }                     ]                 },                 "period_details_data": {                     "program_inception_date": "05/15/2024",                     "program_expiry_date": "05/08/2024"                 },                 "commision_details_data": {                     "coverholders_commission": ""                 },                 "coinsurance_data": {                     "coinsurance": "Lead",                     "leading_coinsurer_name": "ds",                     "signed_line_percentage": "90"                 },                 "operation_and_control_data": {                     "operationAndControlGridData": [                         {                             "person_responsible_for_operation_and_control": "syden",                             "person_authorized_to_bind_insurances": "ds",                             "person_with_responsibility_for_issuance_of_documents": "df",                             "id": "extModel276-1"                         },                         {                             "person_responsible_for_operation_and_control": "maxxy",                             "person_authorized_to_bind_insurances": "ds",                             "person_with_responsibility_for_issuance_of_documents": "df",                             "id": "extModel276-2"                         }                     ]                 }             },             "line_of_business_details": {                 "risk_locations": {                     "risk_locations": [                         "AZ",                         "CA"                     ],                     "insureds_domiciled_location": [                         "CT",                         "CO"                     ],                     "territorial_limits": ""                 },                 "authorised_lines_of_business": [                     {                         "master_line_of_business": "CommercialGeneralLiability",                         "coverage_line": "OwnersContractorProtective",                         "coverage_subLine": "OwnersContractorProtective",                         "maximum_limits_of_liability_or_sums_insured": "21",                         "basis_for_calculation_of_gross_premiums": "21",                         "deductibles_excesses": "345",                         "currency": "GBP",                         "gross_premium_income_limit": "21",                         "notifiable_percentage_of_limit": "21",                         "brokers_commission": "12",                         "lob_effective_date": " ",                         "lob_expiry_date": " ",                         "id": "extModel348-1"                     }                 ]             },             "risk_reporting_period": {                 "period_of_insurances_bound_data": {                     "period_of_insurances_bound": "11",                     "maximum_period_of_insurances_bound": "123",                     "maximum_advance_period_for_inception_dates": "98"                 },                 "risks_reporting_period_data": {                     "risks_written_reporting_interval": "11",                     "max_days_for_reporting_of_risks_written": "",                     "basis_of_monitoring_aggregate_exposures": "",                     "aggregate_reporting_interval": "",                     "max_days_for_reporting_of_aggregate_exposures": "12",                     "max_total_aggregate_limits": "",                     "statistical_information_required": "",                     "reporting_intervals": "",                     "max_days_for_reporting": ""                 }             }         },         {             "id": "2",             "contract_details": {                 "general_contract_details_data": {                     "general_contract_details_form_data": {                         "partner": "Arrowhead",                         "region": "AZ",                         "division": "002",                         "agreement_number": "",                         "feed_number": "212121",                         "unique_market_reference_number": "",                         "coverholder_program_administrator": "cxc",                         "coverholder_program_administrator_address": "",                         "broker_intermediary": "",                         "producer_code": "",                         "annual_statement_company_name": "AIPI",                         "coinsurance_role": "Follow",                         "leading_coinsurer_name": "2134",                         "aig_share_percent": "123",                         "gross_premium_income_limit_program": "234",                         "currency_gross_premium_income_limit": "currency",                         "notifiable_percentage": "234"                     },                     "address": [                         {                             "coverholder_program_administrator_address": "Location 1 1 Creechurch Place, London EC3A 5AF",                             "id": "extModel242-1"                         },                         {                             "coverholder_program_administrator_address": "Location 1 2 Creechurch Place, London EC3A 5AF",                             "id": "extModel242-2"                         }                     ]                 },                 "period_details_data": {                     "program_inception_date": "05/15/2024",                     "program_expiry_date": "05/08/2024"                 },                 "commision_details_data": {                     "coverholders_commission": "",                     "brokers_commission": "12"                 },                 "coinsurance_data": {                     "coinsurance": "Lead",                     "leading_coinsurer_name": "ds",                     "signed_line_percentage": "90"                 },                 "operation_and_control_data": {                     "operationAndControlGridData": [                         {                             "person_responsible_for_operation_and_control": "syden",                             "person_authorized_to_bind_insurances": "ds",                             "person_with_responsibility_for_issuance_of_documents": "df",                             "id": "extModel276-1"                         },                         {                             "person_responsible_for_operation_and_control": "maxxy",                             "person_authorized_to_bind_insurances": "ds",                             "person_with_responsibility_for_issuance_of_documents": "df",                             "id": "extModel276-2"                         }                     ]                 }             },             "line_of_business_details": {                 "risk_locations": {                     "risk_locations": [                         "AZ",                         "CA"                     ],                     "insureds_domiciled_location": [                         "CT",                         "CO"                     ],                     "territorial_limits": ""                 },                 "authorised_lines_of_business": [                     {                         "master_line_of_business": "CommercialGeneralLiability",                         "coverage_line": "OwnersContractorProtective",                         "coverage_subLine": "OwnersContractorProtective",                         "maximum_limits_of_liability_or_sums_insured": "21",                         "basis_for_calculation_of_gross_premiums": "21",                         "deductibles_excesses": "345",                         "currency": "GBP",                         "gross_premium_income_limit": "21",                         "notifiable_percentage_of_limit": "21",                         "id": "extModel348-1"                     }                 ]             },             "risk_reporting_period": {                 "period_of_insurances_bound_data": {                     "period_of_insurances_bound": "11",                     "maximum_period_of_insurances_bound": "123",                     "maximum_advance_period_for_inception_dates": "98"                 },                 "risks_reporting_period_data": {                     "risks_written_reporting_interval": "11",                     "max_days_for_reporting_of_risks_written": "",                     "basis_of_monitoring_aggregate_exposures": "",                     "aggregate_reporting_interval": "",                     "max_days_for_reporting_of_aggregate_exposures": "12",                     "max_total_aggregate_limits": "",                     "statistical_information_required": "",                     "reporting_intervals": "",                     "max_days_for_reporting": ""                 }             }         }     ],     "count": 24 }[ABPM_._ESCAPE_._CDATA_._END]</ap:value>
+            <ap:valueType>[ABPM_._ESCAPE_._CDATA_._START]Process[ABPM_._ESCAPE_._CDATA_._END]</ap:valueType>
+            <ap:type>[ABPM_._ESCAPE_._CDATA_._START]input[ABPM_._ESCAPE_._CDATA_._END]</ap:type>
+          </ap:variable>
+        </ap:variables>
+        <ap:node>
+          <ap:attribute name="label">[ABPM_._ESCAPE_._CDATA_._START]ContextSource[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="type">[ABPM_._ESCAPE_._CDATA_._START]ContextSource[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="id">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="name">[ABPM_._ESCAPE_._CDATA_._START]ContextSource[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="async">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="connector">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="signal">[ABPM_._ESCAPE_._CDATA_._START]SignalComplete[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="comments">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serverEntity">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serviceType">[ABPM_._ESCAPE_._CDATA_._START]activity[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="uiType">[ABPM_._ESCAPE_._CDATA_._START]ContextSource[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+        </ap:node>
+        <ap:properties>
+          <ap:property name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="source">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]ContextSource[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="eventContextEnabled">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]None[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="format">[ABPM_._ESCAPE_._CDATA_._START]PLAIN_TYPE[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="documentRepoFileName">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="parameterName">[ABPM_._ESCAPE_._CDATA_._START]restRequest[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="documentRepository">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="versionControl">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+        </ap:properties>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_1cx4er4</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_15yz9oj</bpmn2:outgoing>
+    </bpmn2:task>
+    <bpmn2:sequenceFlow id="SequenceFlow_1cx4er4" sourceRef="StartEvent_1" targetRef="Task_1argwvp" />
+    <bpmn2:sequenceFlow id="SequenceFlow_15yz9oj" sourceRef="Task_1argwvp" targetRef="Task_10qdyzl" />
+  </bpmn2:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="mainProcess">
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1" bioc:stroke="#808080">
+        <dc:Bounds x="-84" y="200" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="-94" y="236" width="56" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_10qdyzl_di" bpmnElement="Task_10qdyzl" bioc:stroke="#808080" bioc:fill="url(#task_color)">
+        <dc:Bounds x="186" y="188" width="130" height="60" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_0uxtflt_di" bpmnElement="Task_0uxtflt" bioc:stroke="#808080" bioc:fill="url(#task_color)">
+        <dc:Bounds x="366" y="188" width="130" height="60" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_1ym0p0n_di" bpmnElement="Task_1ym0p0n" bioc:stroke="#808080" bioc:fill="url(#task_color)">
+        <dc:Bounds x="546" y="188" width="130" height="60" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_03c2o90_di" bpmnElement="SequenceFlow_03c2o90" bioc:stroke="#008000">
+        <di:waypoint x="496" y="218" />
+        <di:waypoint x="546" y="218" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="521" y="196" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="EndEvent_0e5ue5i_di" bpmnElement="EndEvent_0e5ue5i" bioc:stroke="#808080">
+        <dc:Bounds x="726" y="200" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="718" y="239" width="52" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1xeqf0b_di" bpmnElement="SequenceFlow_1xeqf0b" bioc:stroke="#008000">
+        <di:waypoint x="676" y="218" />
+        <di:waypoint x="726" y="218" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="701" y="196" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1hu5si0_di" bpmnElement="SequenceFlow_1hu5si0" bioc:stroke="#808080">
+        <di:waypoint x="316" y="218" />
+        <di:waypoint x="366" y="218" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="341" y="196" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Task_1argwvp_di" bpmnElement="Task_1argwvp" bioc:stroke="#808080" bioc:fill="url(#task_color)">
+        <dc:Bounds x="2" y="188" width="130" height="60" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1cx4er4_di" bpmnElement="SequenceFlow_1cx4er4" bioc:stroke="#808080">
+        <di:waypoint x="-48" y="218" />
+        <di:waypoint x="2" y="218" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="-23" y="196" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_15yz9oj_di" bpmnElement="SequenceFlow_15yz9oj" bioc:stroke="#808080">
+        <di:waypoint x="132" y="218" />
+        <di:waypoint x="186" y="218" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="159" y="196" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn2:definitions>
+]]></au_webPdXml>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_entityName><![CDATA[AIG_Binder_test_insert]]></au_entityName>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_priority><![CDATA[LOW]]></au_priority>
+        <au_templateName><![CDATA[Process Designer]]></au_templateName>
+        <au_recoverable><![CDATA[1]]></au_recoverable>
+        <au_realTimeConfiguration><![CDATA[0]]></au_realTimeConfiguration>
+        <au_activeFlag><![CDATA[1]]></au_activeFlag>
+        <au_dataEncryptionAtRest><![CDATA[useGlobalPolicy]]></au_dataEncryptionAtRest>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_childFlows><![CDATA[null]]></au_childFlows>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_loggingLevel><![CDATA[DEBUG]]></au_loggingLevel>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_flowDescriptor><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<AdeptiaPE xmlns="jelly:com.werken.blissed.jelly.BlissedTagLibrary" xmlns:version="4.7" xmlns:j="jelly:core" xmlns:abpm="jelly:com.adeptia.indigo.jelly.IndigoTagLibrary" xmlns:pd="jelly:com.adeptia.indigo.pd.ProcessDesignerTagLibrary">
+   <process name="mainProcess" start="startState" var="mainProcess">
+      <state name="startState">
+         <activity>
+            <abpm:installGlobalExceptionHandlers/>
+            <abpm:indigoGeneralVariables>
+               <abpm:params>
+                  <abpm:param activityLabel="ContextSource" activityName="ContextSource" activityType="ContextSource" name="restRequest" track="false">[ABPM_._ESCAPE_._CDATA_._START]{     "data": [         {             "id": "1",             "contract_details": {                 "general_contract_details_data": {                     "general_contract_details_form_data": {                         "partner": "Arrowhead",                         "region": "AZ",                         "division": "002",                         "agreement_number": "",                         "feed_number": "212121",                         "unique_market_reference_number": "",                         "coverholder_program_administrator": "cxc",                         "coverholder_program_administrator_address": "",                         "broker_intermediary": "",                         "producer_code": "",                         "annual_statement_company_name": "AIPI",                         "Status": "",                         "comments": "",                         "CreatedBy": "",                         "CreatedDate": "",                         "ModifiedBy": "",                         "ModifiedDate": "",                         "ApprovedBy": "",                         "ApprovedDate": "",                         "coinsurance_role": "Follow",                         "leading_coinsurer_name": "2134",                         "aig_share_percent": "123",                         "gross_premium_income_limit_program": "234",                         "currency_gross_premium_income_limit": "currency",                         "notifiable_percentage": "234"                     },                     "address": [                         {                             "coverholder_program_administrator_address": "Location 1 1 Creechurch Place, London EC3A 5AF",                             "id": "extModel242-1"                         },                         {                             "coverholder_program_administrator_address": "Location 1 2 Creechurch Place, London EC3A 5AF",                             "id": "extModel242-2"                         }                     ]                 },                 "period_details_data": {                     "program_inception_date": "05/15/2024",                     "program_expiry_date": "05/08/2024"                 },                 "commision_details_data": {                     "coverholders_commission": ""                 },                 "coinsurance_data": {                     "coinsurance": "Lead",                     "leading_coinsurer_name": "ds",                     "signed_line_percentage": "90"                 },                 "operation_and_control_data": {                     "operationAndControlGridData": [                         {                             "person_responsible_for_operation_and_control": "syden",                             "person_authorized_to_bind_insurances": "ds",                             "person_with_responsibility_for_issuance_of_documents": "df",                             "id": "extModel276-1"                         },                         {                             "person_responsible_for_operation_and_control": "maxxy",                             "person_authorized_to_bind_insurances": "ds",                             "person_with_responsibility_for_issuance_of_documents": "df",                             "id": "extModel276-2"                         }                     ]                 }             },             "line_of_business_details": {                 "risk_locations": {                     "risk_locations": [                         "AZ",                         "CA"                     ],                     "insureds_domiciled_location": [                         "CT",                         "CO"                     ],                     "territorial_limits": ""                 },                 "authorised_lines_of_business": [                     {                         "master_line_of_business": "CommercialGeneralLiability",                         "coverage_line": "OwnersContractorProtective",                         "coverage_subLine": "OwnersContractorProtective",                         "maximum_limits_of_liability_or_sums_insured": "21",                         "basis_for_calculation_of_gross_premiums": "21",                         "deductibles_excesses": "345",                         "currency": "GBP",                         "gross_premium_income_limit": "21",                         "notifiable_percentage_of_limit": "21",                         "brokers_commission": "12",                         "lob_effective_date": " ",                         "lob_expiry_date": " ",                         "id": "extModel348-1"                     }                 ]             },             "risk_reporting_period": {                 "period_of_insurances_bound_data": {                     "period_of_insurances_bound": "11",                     "maximum_period_of_insurances_bound": "123",                     "maximum_advance_period_for_inception_dates": "98"                 },                 "risks_reporting_period_data": {                     "risks_written_reporting_interval": "11",                     "max_days_for_reporting_of_risks_written": "",                     "basis_of_monitoring_aggregate_exposures": "",                     "aggregate_reporting_interval": "",                     "max_days_for_reporting_of_aggregate_exposures": "12",                     "max_total_aggregate_limits": "",                     "statistical_information_required": "",                     "reporting_intervals": "",                     "max_days_for_reporting": ""                 }             }         },         {             "id": "2",             "contract_details": {                 "general_contract_details_data": {                     "general_contract_details_form_data": {                         "partner": "Arrowhead",                         "region": "AZ",                         "division": "002",                         "agreement_number": "",                         "feed_number": "212121",                         "unique_market_reference_number": "",                         "coverholder_program_administrator": "cxc",                         "coverholder_program_administrator_address": "",                         "broker_intermediary": "",                         "producer_code": "",                         "annual_statement_company_name": "AIPI",                         "coinsurance_role": "Follow",                         "leading_coinsurer_name": "2134",                         "aig_share_percent": "123",                         "gross_premium_income_limit_program": "234",                         "currency_gross_premium_income_limit": "currency",                         "notifiable_percentage": "234"                     },                     "address": [                         {                             "coverholder_program_administrator_address": "Location 1 1 Creechurch Place, London EC3A 5AF",                             "id": "extModel242-1"                         },                         {                             "coverholder_program_administrator_address": "Location 1 2 Creechurch Place, London EC3A 5AF",                             "id": "extModel242-2"                         }                     ]                 },                 "period_details_data": {                     "program_inception_date": "05/15/2024",                     "program_expiry_date": "05/08/2024"                 },                 "commision_details_data": {                     "coverholders_commission": "",                     "brokers_commission": "12"                 },                 "coinsurance_data": {                     "coinsurance": "Lead",                     "leading_coinsurer_name": "ds",                     "signed_line_percentage": "90"                 },                 "operation_and_control_data": {                     "operationAndControlGridData": [                         {                             "person_responsible_for_operation_and_control": "syden",                             "person_authorized_to_bind_insurances": "ds",                             "person_with_responsibility_for_issuance_of_documents": "df",                             "id": "extModel276-1"                         },                         {                             "person_responsible_for_operation_and_control": "maxxy",                             "person_authorized_to_bind_insurances": "ds",                             "person_with_responsibility_for_issuance_of_documents": "df",                             "id": "extModel276-2"                         }                     ]                 }             },             "line_of_business_details": {                 "risk_locations": {                     "risk_locations": [                         "AZ",                         "CA"                     ],                     "insureds_domiciled_location": [                         "CT",                         "CO"                     ],                     "territorial_limits": ""                 },                 "authorised_lines_of_business": [                     {                         "master_line_of_business": "CommercialGeneralLiability",                         "coverage_line": "OwnersContractorProtective",                         "coverage_subLine": "OwnersContractorProtective",                         "maximum_limits_of_liability_or_sums_insured": "21",                         "basis_for_calculation_of_gross_premiums": "21",                         "deductibles_excesses": "345",                         "currency": "GBP",                         "gross_premium_income_limit": "21",                         "notifiable_percentage_of_limit": "21",                         "id": "extModel348-1"                     }                 ]             },             "risk_reporting_period": {                 "period_of_insurances_bound_data": {                     "period_of_insurances_bound": "11",                     "maximum_period_of_insurances_bound": "123",                     "maximum_advance_period_for_inception_dates": "98"                 },                 "risks_reporting_period_data": {                     "risks_written_reporting_interval": "11",                     "max_days_for_reporting_of_risks_written": "",                     "basis_of_monitoring_aggregate_exposures": "",                     "aggregate_reporting_interval": "",                     "max_days_for_reporting_of_aggregate_exposures": "12",                     "max_total_aggregate_limits": "",                     "statistical_information_required": "",                     "reporting_intervals": "",                     "max_days_for_reporting": ""                 }             }         }     ],     "count": 24 }[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:indigoGeneralVariables>
+         </activity>
+      </state>
+      <state name="Task_10qdyzl">
+         <activity>
+            <abpm:activity name="AIG_JSON_Insert_Binder_Data" async="false" id="" signal="SignalComplete" type="Stream2XmlStreamTransformer">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]ContextSource[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]default[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]UTF-8[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="transformer">[ABPM_._ESCAPE_._CDATA_._START]Stream2XmlStreamTransformer[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="intermediateFormat">[ABPM_._ESCAPE_._CDATA_._START]Native[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="dataAction">[ABPM_._ESCAPE_._CDATA_._START]No Action[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="schemaTypedId">[ABPM_._ESCAPE_._CDATA_._START]JSONSchema:1237001481692880896[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="Task_0uxtflt">
+         <activity>
+            <abpm:activity name="AIG_INSERT_BINDER_DATA_TEST" async="false" id="1387746873751425024" signal="SignalComplete" type="DataMapping">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]AIG_JSON_Insert_Binder_Data[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]default[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]UTF-8[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="generateStream">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="Consume Stream">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="transformerType">[ABPM_._ESCAPE_._CDATA_._START]Saxon[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="Task_1ym0p0n">
+         <activity>
+            <abpm:activity name="AIG_ADBT_Binder_DB" async="false" id="1237035209404162048" signal="SignalComplete" type="AdvancedDatabaseTarget">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]AIG_INSERT_BINDER_DATA_TEST[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]null[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]None[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="generateStream">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="Task_1argwvp">
+         <activity>
+            <abpm:activity name="ContextSource" async="false" id="" signal="SignalComplete" type="ContextSource">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]default[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="eventContextEnabled">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]None[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="format">[ABPM_._ESCAPE_._CDATA_._START]PLAIN_TYPE[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="documentRepoFileName">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="parameterName">[ABPM_._ESCAPE_._CDATA_._START]restRequest[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="documentRepository">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="versionControl">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param direction="input" name="restRequest" paramType="Process">[ABPM_._ESCAPE_._CDATA_._START]{     "data": [         {             "id": "1",             "contract_details": {                 "general_contract_details_data": {                     "general_contract_details_form_data": {                         "partner": "Arrowhead",                         "region": "AZ",                         "division": "002",                         "agreement_number": "",                         "feed_number": "212121",                         "unique_market_reference_number": "",                         "coverholder_program_administrator": "cxc",                         "coverholder_program_administrator_address": "",                         "broker_intermediary": "",                         "producer_code": "",                         "annual_statement_company_name": "AIPI",                         "Status": "",                         "comments": "",                         "CreatedBy": "",                         "CreatedDate": "",                         "ModifiedBy": "",                         "ModifiedDate": "",                         "ApprovedBy": "",                         "ApprovedDate": "",                         "coinsurance_role": "Follow",                         "leading_coinsurer_name": "2134",                         "aig_share_percent": "123",                         "gross_premium_income_limit_program": "234",                         "currency_gross_premium_income_limit": "currency",                         "notifiable_percentage": "234"                     },                     "address": [                         {                             "coverholder_program_administrator_address": "Location 1 1 Creechurch Place, London EC3A 5AF",                             "id": "extModel242-1"                         },                         {                             "coverholder_program_administrator_address": "Location 1 2 Creechurch Place, London EC3A 5AF",                             "id": "extModel242-2"                         }                     ]                 },                 "period_details_data": {                     "program_inception_date": "05/15/2024",                     "program_expiry_date": "05/08/2024"                 },                 "commision_details_data": {                     "coverholders_commission": ""                 },                 "coinsurance_data": {                     "coinsurance": "Lead",                     "leading_coinsurer_name": "ds",                     "signed_line_percentage": "90"                 },                 "operation_and_control_data": {                     "operationAndControlGridData": [                         {                             "person_responsible_for_operation_and_control": "syden",                             "person_authorized_to_bind_insurances": "ds",                             "person_with_responsibility_for_issuance_of_documents": "df",                             "id": "extModel276-1"                         },                         {                             "person_responsible_for_operation_and_control": "maxxy",                             "person_authorized_to_bind_insurances": "ds",                             "person_with_responsibility_for_issuance_of_documents": "df",                             "id": "extModel276-2"                         }                     ]                 }             },             "line_of_business_details": {                 "risk_locations": {                     "risk_locations": [                         "AZ",                         "CA"                     ],                     "insureds_domiciled_location": [                         "CT",                         "CO"                     ],                     "territorial_limits": ""                 },                 "authorised_lines_of_business": [                     {                         "master_line_of_business": "CommercialGeneralLiability",                         "coverage_line": "OwnersContractorProtective",                         "coverage_subLine": "OwnersContractorProtective",                         "maximum_limits_of_liability_or_sums_insured": "21",                         "basis_for_calculation_of_gross_premiums": "21",                         "deductibles_excesses": "345",                         "currency": "GBP",                         "gross_premium_income_limit": "21",                         "notifiable_percentage_of_limit": "21",                         "brokers_commission": "12",                         "lob_effective_date": " ",                         "lob_expiry_date": " ",                         "id": "extModel348-1"                     }                 ]             },             "risk_reporting_period": {                 "period_of_insurances_bound_data": {                     "period_of_insurances_bound": "11",                     "maximum_period_of_insurances_bound": "123",                     "maximum_advance_period_for_inception_dates": "98"                 },                 "risks_reporting_period_data": {                     "risks_written_reporting_interval": "11",                     "max_days_for_reporting_of_risks_written": "",                     "basis_of_monitoring_aggregate_exposures": "",                     "aggregate_reporting_interval": "",                     "max_days_for_reporting_of_aggregate_exposures": "12",                     "max_total_aggregate_limits": "",                     "statistical_information_required": "",                     "reporting_intervals": "",                     "max_days_for_reporting": ""                 }             }         },         {             "id": "2",             "contract_details": {                 "general_contract_details_data": {                     "general_contract_details_form_data": {                         "partner": "Arrowhead",                         "region": "AZ",                         "division": "002",                         "agreement_number": "",                         "feed_number": "212121",                         "unique_market_reference_number": "",                         "coverholder_program_administrator": "cxc",                         "coverholder_program_administrator_address": "",                         "broker_intermediary": "",                         "producer_code": "",                         "annual_statement_company_name": "AIPI",                         "coinsurance_role": "Follow",                         "leading_coinsurer_name": "2134",                         "aig_share_percent": "123",                         "gross_premium_income_limit_program": "234",                         "currency_gross_premium_income_limit": "currency",                         "notifiable_percentage": "234"                     },                     "address": [                         {                             "coverholder_program_administrator_address": "Location 1 1 Creechurch Place, London EC3A 5AF",                             "id": "extModel242-1"                         },                         {                             "coverholder_program_administrator_address": "Location 1 2 Creechurch Place, London EC3A 5AF",                             "id": "extModel242-2"                         }                     ]                 },                 "period_details_data": {                     "program_inception_date": "05/15/2024",                     "program_expiry_date": "05/08/2024"                 },                 "commision_details_data": {                     "coverholders_commission": "",                     "brokers_commission": "12"                 },                 "coinsurance_data": {                     "coinsurance": "Lead",                     "leading_coinsurer_name": "ds",                     "signed_line_percentage": "90"                 },                 "operation_and_control_data": {                     "operationAndControlGridData": [                         {                             "person_responsible_for_operation_and_control": "syden",                             "person_authorized_to_bind_insurances": "ds",                             "person_with_responsibility_for_issuance_of_documents": "df",                             "id": "extModel276-1"                         },                         {                             "person_responsible_for_operation_and_control": "maxxy",                             "person_authorized_to_bind_insurances": "ds",                             "person_with_responsibility_for_issuance_of_documents": "df",                             "id": "extModel276-2"                         }                     ]                 }             },             "line_of_business_details": {                 "risk_locations": {                     "risk_locations": [                         "AZ",                         "CA"                     ],                     "insureds_domiciled_location": [                         "CT",                         "CO"                     ],                     "territorial_limits": ""                 },                 "authorised_lines_of_business": [                     {                         "master_line_of_business": "CommercialGeneralLiability",                         "coverage_line": "OwnersContractorProtective",                         "coverage_subLine": "OwnersContractorProtective",                         "maximum_limits_of_liability_or_sums_insured": "21",                         "basis_for_calculation_of_gross_premiums": "21",                         "deductibles_excesses": "345",                         "currency": "GBP",                         "gross_premium_income_limit": "21",                         "notifiable_percentage_of_limit": "21",                         "id": "extModel348-1"                     }                 ]             },             "risk_reporting_period": {                 "period_of_insurances_bound_data": {                     "period_of_insurances_bound": "11",                     "maximum_period_of_insurances_bound": "123",                     "maximum_advance_period_for_inception_dates": "98"                 },                 "risks_reporting_period_data": {                     "risks_written_reporting_interval": "11",                     "max_days_for_reporting_of_risks_written": "",                     "basis_of_monitoring_aggregate_exposures": "",                     "aggregate_reporting_interval": "",                     "max_days_for_reporting_of_aggregate_exposures": "12",                     "max_total_aggregate_limits": "",                     "statistical_information_required": "",                     "reporting_intervals": "",                     "max_days_for_reporting": ""                 }             }         }     ],     "count": 24 }[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="StartEvent_1">
+         <activity>
+            <pd:event type="start" subType="none"/>
+         </activity>
+      </state>
+      <state name="EndEvent_0e5ue5i">
+         <activity>
+            <pd:event type="end" subType="none"/>
+         </activity>
+      </state>
+      <transition from="startState" to="StartEvent_1"/>
+      <transition from="Task_0uxtflt" to="Task_1ym0p0n"/>
+      <transition from="Task_1ym0p0n" to="EndEvent_0e5ue5i"/>
+      <transition from="Task_10qdyzl" to="Task_0uxtflt"/>
+      <transition from="StartEvent_1" to="Task_1argwvp"/>
+      <transition from="Task_1argwvp" to="Task_10qdyzl"/>
+   </process>
+</AdeptiaPE>
+]]></au_flowDescriptor>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_OldFlowDescriptor><![CDATA[null]]></au_OldFlowDescriptor>
+        <au_trackVariables><![CDATA[<?xml version="1.0"?><Variables></Variables>]]></au_trackVariables>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_userOwner><![CDATA[IndigoUser:1390336793352597504]]></au_userOwner>
+        <au_retainVarXml><![CDATA[0]]></au_retainVarXml>
+        <au_modifiedDate><![CDATA[2025-07-03T20:22:27]]></au_modifiedDate>
+    </AU_TRANSACTION>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_flowDescriptor" type="-1"/>
+        <column name="au_activeFlag" type="3"/>
+        <column name="au_templateName" type="12"/>
+        <column name="au_advanced" type="3"/>
+        <column name="au_loggingLevel" type="12"/>
+        <column name="au_priority" type="12"/>
+        <column name="au_repositoryAction" type="12"/>
+        <column name="au_logRetentionAction" type="12"/>
+        <column name="au_childFlows" type="-1"/>
+        <column name="au_trackVariables" type="-1"/>
+        <column name="au_retainVarXml" type="3"/>
+        <column name="au_recoverable" type="3"/>
+        <column name="au_realTimeConfiguration" type="3"/>
+        <column name="au_webPdXml" type="-1"/>
+        <column name="au_OldFlowDescriptor" type="-1"/>
+        <column name="au_dataEncryptionAtRest" type="12"/>
+        <column name="au_connectDashboardLogging" type="3"/>
+    </columnInfo>
+</data>
