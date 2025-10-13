@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_GROUPS>
+        <au_description><![CDATA[Dummy Group]]></au_description>
+        <au_revision><![CDATA[7723ffa5cc5a6815d9434475070844826a4c4400]]></au_revision>
+        <au_synchronized><![CDATA[1]]></au_synchronized>
+        <au_modifiedDate><![CDATA[2016-12-15T11:00:28]]></au_modifiedDate>
+        <au_comment><![CDATA[]]></au_comment>
+        <au_userOwner><![CDATA[IndigoUser:1260489485594161152]]></au_userOwner>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_modifiedBy><![CDATA[IndigoUser:1260489485594161152]]></au_modifiedBy>
+        <au_version><![CDATA[1]]></au_version>
+        <au_title><![CDATA[]]></au_title>
+        <au_webDavFolder><![CDATA[WebDavFolder:192168001207112972325504600001]]></au_webDavFolder>
+        <au_entityName><![CDATA[Group_1]]></au_entityName>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_creationDate><![CDATA[2016-12-15T10:31:16]]></au_creationDate>
+        <au_comments><![CDATA[]]></au_comments>
+        <au_id><![CDATA[192168001075148181566048300002]]></au_id>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_permissionMask><![CDATA[711]]></au_permissionMask>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_groupInfo><![CDATA[K8QswfddIduKjYZJo7AwgclYZPnFCTzRUSyxdim3JrzK5v8CUYpBult9MBz+2s6/]]></au_groupInfo>
+    </AU_GROUPS>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_title" type="12"/>
+        <column name="au_comment" type="12"/>
+        <column name="au_webDavFolder" type="12"/>
+        <column name="au_groupInfo" type="12"/>
+    </columnInfo>
+</data>
